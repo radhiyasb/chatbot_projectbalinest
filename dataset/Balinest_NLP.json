@@ -1,0 +1,1405 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "hallo",
+        "hai",
+        "halo",
+        "hei",
+        "hi",
+        "hy",
+        "pagi",
+        "morning",
+        "siang",
+        "afternoon",
+        "sore",
+        "malam",
+        "bro",
+        "sis",
+        "kawan"
+      ],
+      "responses": [
+        "Hai! Dengan Lily di sini. Mau tau informasi tentang apa nih?",
+        "Halo! Saya Lily, salam kenal yaaa! Mau tau tentang wisata di Bali, kan?",
+        "Hello! Ini Lily. Lagi kepo tentang Bali ya?"
+      ]
+    },
+    {
+      "tag": "lily",
+      "patterns": [
+        "Apa itu Lily?",
+        "Siapa Lily?"
+      ],
+      "responses": [
+        "Lily adalah aplikasi chatbot informasi tentang tempat wisata di Bali!",
+        "Lily merupakan teman informasi kamu tentang tempat wisata di Bali!"
+      ]
+    },
+    {
+      "tag": "pencipta_lily",
+      "patterns": [
+        "Siapa pembuatmu, Lily?",
+        "Lily, yang buat kamu siapa sih?",
+        "Siapa penciptamu, Lily?"
+      ],
+      "responses": [
+        "Lily diciptakan oleh mahasiswa dan mahasiswi Studi Independen Batch 3 AI for Startup Power Academy yang memiliki ide kreatif dan inovatif serta semangat team yang luar biasa walaupun banyak rintangan dan drama tapi mereka berhasil menciptakan saya saat ini",
+        "Pembuat Lily berasal dari kalangan mahasiswa dan mahasiswi lho!",
+        "Penciptaku berasal dari beberapa mahasiswa yang kreatif, sehingga saya bisa aktif saat ini!"
+      ]
+    },
+    {
+      "tag": "penjelasan_agrowisata_satria",
+      "patterns": [
+        "Apa itu Agrowisata Satria?",
+        "Agrowisata Satria"
+      ],
+      "responses": [
+        "Agrowisata Satria merupakan salah satu agrowisata di Gianyar Bali yang berjarak 31,2 km atau dapat ditempuh selama 51 menit dari Bandar Udara Internasional Ngurah Rai Bali. Dengan harga tiket weekend sebesar Rp 50.000 saat weekday dan weekend, wisatawan sudah dapat memasuki agrowisata ini. Agrowisata ini memiliki gerbang masuk ditepi jalan dengan halaman parkir yang luas. Wisatawan akan diajak melihat perkebunan kopi yang hijau dan asri sembari diberi penjelasan tentang jenis dan proses pengolahan kopi. Selain itu, pengunjung juga dapat menyaksikan cara roasting tradisional yang dilakukan dengan tungku, kompor tradisional berbahan kayu bakar."
+      ]
+    },
+    {
+      "tag": "penjelasan_aloha_ubud_swing",
+      "patterns": [
+        "Apa itu Aloha Ubud Swing?",
+        "Aloha Ubud Swing"
+      ],
+      "responses": [
+        "Aloha Ubud Swing merupakan salah satu wisata alam dengan wahana menegangkan di Gianyar karena memiliki 8 ayunan raksasa berlatar persawahan yang indah. Tempat wisata ini berjarak 41,2 km atau dapat ditempuh selama 1 jam 9 menit dari Bandar Udara Internasional Ngurah Rai Bali. Dengan harga tiket sebesar Rp 300.000 saat weekday maupun weekend, wisatawan sudah dapat memasuki tempat wisata ini. Selain ayunan raksasa dan pemandangan yang indah, wisatawan juga dapat melihat dan menaiki sarang burung raksasa yang terbuat dari kayu yang telah dimodifikasi sedemikian rupa. "
+      ]
+    },
+    {
+      "tag": "penjelasan_big_garden_corner",
+      "patterns": [
+        "Apa itu Big Garden Corner?",
+        "Big Garden Corner"
+      ],
+      "responses": [
+        "Big Garden Corner merupakan salah satu taman wisata yang terletak di sudut kota Denpasar yang berjarak 18 km atau dapat ditempuh selama 28 menit dari Bandar Udara Internasional Ngurah Rai Bali. Dengan harga tiket sebesar Rp 30.000 saat weekday dan Rp 35.000 saat weekend, wisatawan sudah dapat memasuki tempat wisata ini. Tempat wisata ini menawarkan konsep taman dengan galeri berbagai jenis patung. Taman ini menyajikan ratusan koleksi patung batu besar dan kecil. Patung yang dipajang adalah patung jenis klasik dan tidak ada patung modern. Tempat wisata ini terlihat seperti galeri seni dalam sebuah taman terbuka, semua ditata dengan sangat baik memperhatikan segala detailnya. Selain untuk refreshing, wisata foto selfie di tengah kota menjadi tempat ideal."
+      ]
+    },
+    {
+      "tag": "penjelasan_campuhan_ridge_walk",
+      "patterns": [
+        "Apa itu Campuhan Ridge Walk?",
+        "Campuhan Ridge Walk"
+      ],
+      "responses": [
+        "Campuhan Ridge Walk atau Bukit Campuhan Bali merupakan salah satu tempat wisata alam yang terletak di Jl. Bangkiang Sidem, Kelusa, Payangan, Ubud, Kelusa, Payangan, Kabupaten Gianyar yang berjarak 37,8 km atau dapat ditempuh selama 1 jam 3 menit dari Bandar Udara Internasional Ngurah Rai Bali. Untuk memasuki tempat wisata ini tidak dipungut biaya. Kawasan bukit ini  tidak terpisah kan dengan adanya Pura Gunung Lebah yang terletak di bawah jembatan bernama Kuning Payang Sungai Campuhan. Keberadaan dari Campuhan Ridge Walk juga merupakan penyambung aliran sungai Cerik dan Oos. Menariknya, saking romantisnya suasana yang terbangun di lokasi tersebut  menjadikannya tempat favorit pasangan yang hendak menikah sehingga mendapatkan julukan sebagai Bukit Cinta Campuhan. Banyak kegiatan bisa dilakukan oleh wisatawan ketika berada di Bukit Wisata Campuhan Bali. Misalnya saja seperti berjalan-jalan, jogging, trekking bukit hingga berfoto sambil menikmati pemandangan pepohonan yang begitu asli dan sejuk. Rute yang dapat dilewati memiliki kondisi jalan cukup bagus, dimana wisatawan dapat menikmati olahraga ringan sepanjang 2 kilometer."
+      ]
+    },
+    {
+      "tag": "penjelasan_jatiluwih_green_land",
+      "patterns": [
+        "Apa itu Jatiluwih Green Land?",
+        "Jatiluwih Green Land"
+      ],
+      "responses": [
+        "Jatiluwih Green Land merupakan daerah kawasan wisata yang dimiliki kabupaten Tabanan karena memiliki tanah perkebunan dan persawahan yang berteras-teras sehingga akan terlihat pemandangan sawah yang indah untuk dipandang terutama pada sore hari menjelang matahari terbenam. Tempat ini berjarak sekitar 58,1 km atau dapat ditempuh sekitar 1 jam 43 menit dari Bandar Udara Internasional Ngurah Rai Bali. Tiket masuk ke tempat ini adalah Rp 40.000 saat weekday maupun weekend."
+      ]
+    },
+    {
+      "tag": "penjelasan_teras_sawah_tegalalang",
+      "patterns": [
+        "Apa itu Teras Sawah Tegalalang",
+        "Teras Sawah Tegalalang"
+      ],
+      "responses": [
+        "Teras Sawah Tegalalang merupakan salah satu wisata alam yang terletak di dekat Ubud tepatnya di Jalan Raya Tegalalang, Kabupaten Gianyar yang berjarak 44,6 km atau dapat ditempuh selama 1 jam 13 menit dari Bandar Udara Ngurah Rai Bali. Dengan harga tiket sebesar Rp 10.000 saat weekday maupun weekend, wisatawan sudah dapat memasuki tempat wisata ini. Sawah di Tegalalang nampak begitu unik karena memiliki formasi seperti tangga raksasa dari kejauhan dan juga terdapat pohon kelapa di beberapa titik di antara pemisah-pemisah sawah. Teras Sawah Tegalalang buka setiap hari termasuk hari libur kecuali Hari Raya Nyepi, dari jam 7 pagi hingga 6 sore. Selain menjelajahi sawah terasering, wisatawan juga dapat mencoba ayunan yang menggantung sekitar 15 meter di atas pohon, menikmati kuliner di tempat makan atau restoran di dekat sawah maupun berkeliling di toko-toko souvenir yang berlokasi di dekat tempat parkir."
+      ]
+    },
+    {
+      "tag": "penjelasan_alas_harum_agro_tourism",
+      "patterns": [
+        "Apa itu Alas Harum Agro Tourism?",
+        "Alas Harum Agro Tourism"
+      ],
+      "responses": [
+        "Alas Harum Agro Tourism merupakan agro wisata kopi luwak yang populer di Bali karena tidak hanya rasanya saja yang spesial namum proses produksinya juga masih menggunakan cara-cara tradisional. Proses produksinya yang unik karena berasal dari biji-biji pilihan yang dipilih oleh binatang luwak secara langsung sehingga menghasilkan kopi bercita rasa tinggi dan banyak disukai orang. Agrowisata ini terletak di Gianyar dan berjarak 44 km atau dapat ditempuh selama 1 jam 12 menit dari Bandar Udara Internasional Ngurah Rai Bali. Dengan harga tiket sebesar Rp 10.000 saat weekday maupun weekend, wisatawan sudah dapat memasuki tempat wisata ini. Tempat wisata ini juga menyediakan berbagai hal menarik yang dapat dinikmati oleh pengunjung seperti wahana ayunan, pemandangan sawah terasering seperti di objek wisata ceking tegalalang dan dibawah lembah juga terdapat sungai yang mengalir jernih."
+      ]
+    },
+    {
+      "tag": "penjelasan_wisata_agro_teba_sari_bali",
+      "patterns": [
+        "Apa itu Wisata Agro Teba Sari Bali?",
+        "Wisata Agro Teba Sari Bali"
+      ],
+      "responses": [
+        "Wisata Agro Teba Sari Bali merupakan agro wisata kopi luwak yang terletak di Gianyar Bali. Agro wisata ini berjarak 32,4 km atau dapat ditempuh selama 53 menit dari Bandar Udara Internasional Ngurah Rai Bali. Tempat ini sangat tepat dikunjungi untuk wisatawan yang hemat budget karena untuk memasuki tempat wisata ini, wisatawan tidak dipungut biaya."
+      ]
+    },
+    {
+      "tag": "penjelasan_wisata_air_panas_toya_bungkah",
+      "patterns": [
+        "Apa itu Wisata Air Panas Toya Bungkah?",
+        "Wisata Air Panas Toya Bungkah"
+      ],
+      "responses": [
+        "Wisata Air Panas Toya Bungkah merupakan kawasan pemandian air panas sekaligus kawasan wisata alam di Bangli. Berjarak 78,8 km atau dapat ditempuh selama 1 jam 56 menit dari Bandar Udara Internasional Ngurah Rai Bali. Dengan harga tiket sebesar Rp 70.000 saat weekday maupun weekend, wisatawan sudah dapat memasuki tempat wisata ini. Keberadaan sumber air panas alami bermanfaat untuk relaksasi otot dan dipercaya memiliki kandungan sulfur yang berkhasiat menyembuhkan penyakit kulit. Kolam air panas di Toya Bungkah ada dua, yaitu yang pertama ditata sesuai keadaan alam sekitarnya dan menjadi semacam pemandian umum warga sekitar. Kedua, adalah kolam air panas alam yang ditata dengan dibangunnya tembok atau pembatas dan biasanya jadi tempat yang dipilih wisatawan."
+      ]
+    },
+    {
+      "tag": "penjelasan_air_terjun_aling_aling",
+      "patterns": [
+        "Apa itu Air Terjun Aling-Aling?",
+        "Air Terjun Aling-Aling"
+      ],
+      "responses": [
+        "Air Terjun Aling-Aling merupakan salah satu dari sekian banyak air terjun di Buleleng. Air terjun ini berjarak 89,1 km atau dapat ditempuh selama 2 jam 26 menit dari Bandar Udara Internasional Ngurah Rai Bali. Dengan harga tiket sebesar Rp 20.000 saat weekday maupun weekend, wisatawan sudah dapat memasuki tempat wisata ini. Tebing kokoh menjulang tinggi diselimuti tumbuhan hijau membuat air terjun ini terlihat asri dan menawan. Ketinggiannya sekitar 35 meter disertai dengan cekungan besar yang membentuk kolam alami yang menampung seluruh guyuran air terjun ini."
+      ]
+    },
+    {
+      "tag": "penjelasan_air_terjun_tegenungan",
+      "patterns": [
+        "Apa itu Air Terjun Tegenungan?",
+        "Air Terjun Tegenungan"
+      ],
+      "responses": [
+        "Air Terjun Tegenungan merupakan air terjun yang terletak di Gianyar yang berjarak 31,5 km atau dapat ditempuh selama 50 menit dari Bandar Udara Internasional Ngurah Rai Bali. Dengan harga tiket Rp 20.000 saat weekday maupun weekend, wisatawan sudah dapat memasuki kawasan air terjun ini. Air terjun ini memiliki ketinggian 15 meter. Meski tidak begitu tinggi, debit airnya sangat deras. Airnya juga bersih dan bening. Air terjun ini berasal dari Sungai Tukad Petanu. Tempat ini sering digunakan untuk melakukan hal-hal ekstrem, seperti melompat dari puncak air terjun. Air Terjun ini sudah sangat populer di telinga wisatawan asing. Tidak hanya daya tariknya yang sangat memukau, tapi juga dikenal sebagai tempat wisata yang masih kental dengan budaya, sejarah, dan kesenian."
+      ]
+    },
+    {
+      "tag": "penjelasan_air_terjun_tukad_cepung",
+      "patterns": [
+        "Apa itu Air Terjun Tukad Cepung?",
+        "Air Terjun Tukad Cepung"
+      ],
+      "responses": [
+        "Air Terjun Tukad Cepung merupakan air terjun yang terletak di Bangli yang berjarak 51,8 km atau dapat ditempuh selama 1 jam 12 menit dari Bandar Udara Internasional Ngurah Rai Bali. DEngan harga tiket sebesar Rp 15.000 saat weekday maupun weekend, wisatawan sudah dapat memasuki tempat wisata ini. Air Terjun Tukad Cepung memiliki ketinggian sekitar 15 meter, dengan kondisi air yang jernih, serta arus air yang turun tidak begitu deras. Air yang turun mneyerupai sebuah tirai raksasa yang disorot sinar matahari sehingga memantulakan cahaya keindahan ke dalam goa yang sedikit gelap. Uniknya, Air Terjun Tukad Cepung tidak memiliki palung atau kolam utama. Sehingga air yang turun langsung mengalir di sepanjang jalur yang tadi dilewati oleh para wisatawan. Kondisi goanya tidak sempit, sehingga tidak pengap. Udara di dalam goa juga sejuk, tidak terlalu lembab seperti kebanyakan goa lainya. Mungkin karena sirkulasi udara yang cukup dari lubang tempat Air Terjun Tukad Cepung turun."
+      ]
+    },
+    {
+      "tag": "penjelasan_bukit_wanagiri",
+      "patterns": [
+        "Apa itu Bukit Wanagiri?",
+        "Bukit Wanagiri"
+      ],
+      "responses": [
+        "Bukit Wanagiri merupakan tempat rekreasi alam dan objek wisata selfie yang terletak di Buleleng yang berjarak sekitar 69,3 km atau dapat ditempuh selama 1 jam 47 menit dari Bandar Udara Internasional Ngurah Rai Bali. Harga tiket masuk ke bukit ini adalah Rp 50.000 saat weekday maupun weekend. Tempat foto selfie di kawasan puncak Wanagiri Buleleng ini, tidak hanya anjungannya saja yang menarik, di atasnya ada sebuah pohon besar, sehingga menjadi tempat yang kokoh mengikatkan rantai besi untuk sebuah ayunan, ayunan ini menjadi tempat spesial bagi anda yang ingin mendapat foto yang spektakuler dengan latar belakang keindahan danau Buyan."
+      ]
+    },
+    {
+      "tag": "penjelasan_danau_batur",
+      "patterns": [
+        "Apa itu Danau Batur?",
+        "Danau Batur"
+      ],
+      "responses": [
+        "Danau Batur merupakan danau kawah di Kintamani, Kabupaten Bangli, Bali yang terletak sekitar 30 km di timur laut Ubud di Bali. Danau itu berada di dalam kaldera gunung berapi aktif yaitu Gunung Batur yang terletak di sepanjang aktivitas vulkanis Cincin Api Pasifik. Jarak danau ini dari Bandar Udara Internasional Ngurah Rai Bali 79,5 km atau dapat ditempuh selama 1 jam 57 menit. Tiket masuk ke danau ini adalah Rp 15.000 saat weekday dan weekend."
+      ]
+    },
+    {
+      "tag": "penjelasan_danau_beratan",
+      "patterns": [
+        "Apa itu Danau Beratan?",
+        "Danau Beratan"
+      ],
+      "responses": [
+        "Danau Beratan merupakan sebuah danau yang terletak di kawasan Bedugul, Desa Candikuning, Kecamatan Baturiti, Kabupaten Tabanan, Bali. Berjarak sekitar 63,3 km atau dapat ditempuh selama 1 jam 41 menit dari Bandar Udara Internasional Ngurah Rai Bali. Tiket masuk ke danau ini adalah Rp 30.000 saat weekday maupun weekend. Danau ini terletak paling timur di antara dua danau lainnya, yaitu Danau Tamblingan dan Danau Buyan, dan merupakan gugusan danau kembar di dalam sebuah kaldera besar. Danau Beratan Bedugul adalah danau terluas dan terbesar kedua setelah Danau Batur, yang luasnya mencapai 375,6 hektare dengan keliling sekitar 12 km dan kedalaman antara 22 dan 48 meter. Selain mudah dijangkau, Danau Beratan juga menyediakan beragam pesona dan akomodasi yang memadai. Di tengah danau terdapat sebuah pura bernama Pura Ulun Danu, yang merupakan tempat pemujaan kepada Sang Hyang Dewi Danu sebagai pemberi kesuburan."
+      ]
+    },
+    {
+      "tag": "penjelasan_danau_tamblingan",
+      "patterns": [
+        "Apa itu Danau Tamblingan?",
+        "Danau Tamblingan"
+      ],
+      "responses": [
+        "Danau Tamblingan merupakan sebuah danau yang terletak di lereng sebelah utara Gunung Lesung, kawasan Desa Munduk, Kecamatan Banjar, Kabupaten Buleleng, Bali. Danau ini berjarak 81 km atau dapat di tempuh selama 2 jam 14 menit dari Bandar Udara Internasional Ngurah Rai Bali. Dengan harga tiket masuk Rp 10.000 saat weekday maupun weekend, wisatawan dapat menikmati keindahan danau ini. Danau ini merupakan satu dari tiga danau kembar yang terbentuk di dalam sebuah kaldera besar. Sebagai salah satu objek wisata alam, Danau Tamblingan tidak dikembangkan ke arah pariwisata modern demi menjaga kelestarian alam dan lingkungannya. Yang menjadi daya tarik utama tempat ini bukan hanya pesona alamnya, namun juga karena banyaknya pura yang menyimpan sejarah dan perkembangan peradaban dan kebudayaan Bali khususnya menyangkut pembentukan dan perkembangan Desa Tamblingan."
+      ]
+    },
+    {
+      "tag": "penjelasan_gunung_agung",
+      "patterns": [
+        "Apa itu Gunung Agung?",
+        "Gunung Agung"
+      ],
+      "responses": [
+        "Gunung Agung merupakan gunung tertinggi di Bali yang terletak di Karangasem dengan ketinggian 3.142 mdpl. Gunung ini berjarak 70,9 km atau dapat ditempuh selama 1 jam 52 menit dari Bandar Udara Internasional Ngurah Rai Bali. Dengan membayar tiket masuk sebesar Rp 25.000 saat weekday maupun weekend, wisatawan sudah dapat menikmati keindahan gunung ini. Bagi orang Bali, Gunung Agung dianggap sebagai tempat keramat sekaligus disucikan. Terlebih di gunung gunung ini juga terdapat Pura Besakih, yang menjadi salah satu pura terpenting menurut orang Hindu di Bali. Jika cuaca mendukung, saat berada di Puncak Gunung Agung akan terlihat puncak Gunung Rinjani yang berada di Pulau Lombok atau di sebelah timur."
+      ]
+    },
+    {
+      "tag": "penjelasan_gunung_batur",
+      "patterns": [
+        "Apa itu Gunung Batur?",
+        "Gunung Batur"
+      ],
+      "responses": [
+        "Gunung Batur merupakan sebuah gunung berapi aktif di Kecamatan Kintamani, Kabupaten Bangli, Bali. Gunung ini berjarak 78,9 km atau dapat ditempuh selama 1 jam 56 menit dari Bandar Udara Internasional Ngurah Rai Bali. Tiket masuk ke gunung ini adalah Rp 15.000 baik weekday maupun weekend. Daerah yang dapat ditonjolkan sebagai objek wisata adalah kawah, kaldera dan danau. Terdapat aliran air dalam tanah yang mengalirkan air Danau Batur, yang muncul menjadi mata air di beberapa tempat di Bali dan dianggap sebagai Tirta Suci. Wisata budaya yang terdapat di kawasan Gunung Batur adalah Trunyan. Meskipun seluruh penduduk Trunyan beragama Hindu seperti umumnya masyarakat Bali, mereka menyatakan bahwa Hindu Trunyan merupakan Hindu asli warisan kerajaan Majapahit. Di sebelah utara Trunyan terdapat kuban, sebuah tempat makam desa, namun jenazah tidak dikuburkan atau dibakar, melainkan diletakkan di bawah pohon setelah dilakukan upacara kematian yang rumit. Tempat pemakamanan ini dipenuhi oleh tulang-tulang, dan bisa jadi kita menemukan mayat yang masih baru."
+      ]
+    },
+    {
+      "tag": "penjelasan_kintamani_highland",
+      "patterns": [
+        "Apa itu Kintamani Highland?",
+        "Kintamani Highland"
+      ],
+      "responses": [
+        "Kintamani Highland merupakan kawasan wisata pemadangan alam di Bangli yang berjarak sekitar 93 km atau dapat ditempuh selama 58 menit dari Bandar Udara Internasional Ngurah Rai Bali. Harga tiket masuk ke kawasan ini adalah Rp 25.000 saat weekday maupun weekend. Kintamani memiliki udara pegunungan berhawa sejuk dengan panorama Gunung  dan Danau Batur begitu indah. Kawasan paling favorit adalah desa Penelokan kecamatan Kintamani, desa ini terletak pada tepian kaldera Gunung Batur, spot ini adalah tempat tampil teramat indah untuk melihat pemandangan Gunung Batur beserta danaunya. Dari tempat ketiinggian melihat sensasi gunung Batur, kadang-kadang terlihat begitu jelas mengeluarkan asap, karena tergolong masih aktif dan keindahanan danau bulan sabit yang beradapada kaki gunung. Berkunjung ke sini adalah waktu siang hari, saat waktu makan siang, karena sepanjang jalan tersedia restaurant dengan menyajikan pemandangan lembah, gunung serta danau, sehingga menjadikannya sebagai destinasi wisata hits dan tujuan tour populer di Bali."
+      ]
+    },
+    {
+      "tag": "penjelasan_watersport_tanjung_benoa_bali",
+      "patterns": [
+        "Apa itu Watersport Tanjung Benoa Bali?",
+        "Watersport Tanjung Benoa Bali"
+      ],
+      "responses": [
+        "Watersport Tanjung Benoa Bali merupakan water sport yang terletak di Badung dengan jarak sekitar 16,2 km atau dapat ditempuh selama 24 menit dari Bandar Udara Internasional Ngurah Rai Bali. Jenis olahraga air yang bisa dinikmati di sini antara lain snorkeling, sea walker, banana boat, parasailing, wakerboard, waterski, jetski, scuba diving, rolling donut, flaying fish dan glassbottom boat."
+      ]
+    },
+    {
+      "tag": "penjelasan_agung_bali",
+      "patterns": [
+        "Apa itu Agung Bali?",
+        "Agung Bali"
+      ],
+      "responses": [
+        "Agung Bali merupakan toko oleh-oleh yang berlokasi di Badung yang sangat strategis karena berjarak sekitar 4,8 km dari Bandar Udara Internasional Ngurah Rai Bali.  Banyak tamu wisatawan yang berbelanja oleh-oleh sebelum berangkat menuju bandara. Barang-barang yang terdapat pada outlet Agung Bali sangat lengkap dan memiliki harga yang terjangkau."
+      ]
+    },
+    {
+      "tag": "penjelasan_galeri_seni_semar_kuning",
+      "patterns": [
+        "Apa itu Galeri Seni Semar Kuning?",
+        "Galeri Seni Semar Kuning"
+      ],
+      "responses": [
+        "Galeri Seni Semar Kuning merupakan sebuah galeri seni yang menampung karya seni lukisan masyarakat yang berlokasi di Gianyar. Galeri ini berjarak 31,7 km atau dapat ditempuh sekitar 50 menit dari Bandar Udara Internasional Ngurah Rai Bali. Untuk memasuki galeri ini, wisatawan tidak dipungut biaya. Galeri ini memiliki area parkir yang luas dan pelayanan yang ramah."
+      ]
+    },
+    {
+      "tag": "penjelasan_pabrik_kata_kata_joger",
+      "patterns": [
+        "Apa itu Pabrik Kata-Kata Joger?",
+        "Pabrik Kata-Kata Joger"
+      ],
+      "responses": [
+        "Pabrik Kata-Kata Joger merupakan oleh-oleh khas Bali yang berupa kaos oblong ini mampu menarik para wisatawan untuk datang ke Bali. Meski tampilannya hanya kaos oblong saja namun yang membuat kaos oblong ini menarik ialah kata-kata yang tercetak di kaos. Kata-kata yang tercantum bukan kata-kata biasa melainkan kata-kata yang berisi motivasi dan prinsip hidup. Selain kata-kata adapula gambar-gambar unik yang menarik. Berlokasi di Badung yang berjarak 3,1 km atau dapat ditempuh selama 9 menit dari Bandar Udara Internasional Ngurah Rai Bali membuatnya sangat strategis untuk dijadikan tempat berburu oleh-oleh. Toko Joger terbagi menjadi 2 bagian. Bagian pertama terletak di depan dan memajang kerajinan ukiran khas Bali. Ada barang lainnya seperti sandal, gantungan kunci, tas, hiasan meja dan lain-lain. Bagian kedua memajang berbagai barang berbau fashion. Disinilah kaos Joger berada, ada barang lainnya yakni topi, celana, jaket dan masih banyak lainnya."
+      ]
+    },
+    {
+      "tag": "penjelasan_krisna_oleh_oleh",
+      "patterns": [
+        "Apa itu Krisna Oleh Oleh?",
+        "Krisna Oleh Oleh"
+      ],
+      "responses": [
+        "Krisna Oleh Oleh toko oleh-oleh terbesar di Bali yang dibangun pada tahun 2007 yang terletak di Buleleng. Pusat oleh-oleh ini menyediakan berbagai macam produk khas Pulau Dewata seperti cemilan, souvenir, fashion, aksesoris, kerajinan tangan, hingga produk kecantikan. Selain kelengkapan produknya, krisna oleh-oleh juga memiliki letak yang strategis yaitu berjarak 1,6 km atau dapat ditempuh selama 5 menit dari Bandar Udara Internasional Ngurah Rai Bali. Toko oleh-oleh krisna Bali memiliki area yang cukup luas sehingga membuat para pengunjung bisa nyaman saat berbelanja. Tempat ini juga dilengkapi dengan rest area dan food court, jadi apabila wisatawan sudah selesai berbelanja dapat istirahat sejenak sambil menikmati makanan yang disediakan oleh food court Toko Krisna."
+      ]
+    },
+    {
+      "tag": "penjelasan_pasar_seni_tradisional_ubud",
+      "patterns": [
+        "Apa itu Pasar Seni Tradisional Ubud",
+        "Pasar Seni Tradisional Ubud"
+      ],
+      "responses": [
+        "Pasar Seni Tradisional Ubud merupakan pasar tradisional yang menawarkan berbagai produk kesenian khas Bali. Pasar ini berlokasi di Gianyar yang berjarak 36,3 km atau dapat ditempuh selama 1 jam dari Bandar Udara Internasional Ngurah Rai Bali. Di pasar ini, wisatawan dapat memperoleh beragam kerajinan hingga benda seni yang berkualitas dengan harga yang relatif murah."
+      ]
+    },
+    {
+      "tag": "penjelasan_pusat_kesenian_ukir_desa_mas",
+      "patterns": [
+        "Apa itu Pusat Kesenian Ukir Desa Mas?",
+        "Pusat Kesenian Ukir Desa Mas"
+      ],
+      "responses": [
+        "Pusat Kesenian Ukir Desa Mas merupakan desa yang diidentifikasi sebagai pedesaan artistik dengan fokus pada seni ukiran kayu di Gianyar Bali. Berjarak sekitar 33,3 km atau dapat ditempuh sekitar 50 menit dari Bandar Udara Internasional Ngurah Rai Bali. Memiliki corak khas seni ukir kayu dengan mengedepankan sinergi yang membedakan antara humanisme dan naturalisme. Popularitas desa sebagai desa seni ukir kayu terkenal di tingkat nasional dan dunia tidak lupa dari nama keagungan beberapa maestro yang telah melahirkan dan menemukan semangat (taksu) dan jiwa. Pemahat kayu yang terkenal di sini adalah almarhum Ida Bagus Nyana dan putranya Ida Bagus Tilem. Sepanjang jalan kita bisa menemukan banyak art shop yang menjual berbagai macam ukiran kayu. Di kiri atau kanan jalan kita juga bisa melihat persawahan, sehingga dapat disimpulkan bahwa kehidupan masyarakat Mas tidak hanya sebagai pemahat kayu tetapi juga sebagai petani."
+      ]
+    },
+    {
+      "tag": "penjelasan_handara_iconic_gate",
+      "patterns": [
+        "Apa itu Handara Iconic Gate?",
+        "Handara Iconic Gate"
+      ],
+      "responses": [
+        "Handara Iconic Gate merupakan sebuah gapura indah yang berada di Buleleng tepatnya di sebelah utara Pura Ulun Danu Beratan. Handara Iconic Gate berjarak 65,8 km atau dapat ditempuh selama 1 jam 44 menit dari Bandar Udara Ngurah Rai Bali. Dengan tiket masuk sebesar Rp 20.000 saat weekday maupun weekend, wisatawan sudah dapat memasuki tempat wisata ini. Gerbang ini adalah salah satu ikon foto paling mengesankan bagi para pelancong dan instagramer. Dengan kombinasi gerbang kuno dan perbukitan serta lapangan golf hijau menjadikan gerbang ini menjadi salah satu tempat yang wajib dikunjungi jika berlibur ke Bali."
+      ]
+    },
+    {
+      "tag": "penjelasan_batik_koleksi_sari_amerta",
+      "patterns": [
+        "Apa itu Batik Koleksi Sari Amerta?",
+        "Batik Koleksi Sari Amerta"
+      ],
+      "responses": [
+        "Batik Koleksi Sari Amerta merupakan toko batik yang berlokasi di Kabupaten Gianyar. Toko batik ini menawarkan berbagai macam jenis kain dan motif batik khas Indonesia dan berbagai daerah di Provinsi Bali. Batik untuk pria dan wanita tersedia disini dengan berbagai jenis seperti batik formal, batik lengan panjang dan pendek, casual, baik tradisional dan batik modern, batik tulis, sogan, batik couple dan lainnya. Toko batik ini juga menyediakan kebaya, kain batik, kaftan batik, batik kombinasi brokat dan batik kombinasi polos. Untuk harga, batik-batik ini dijual relatif murah tergantung tergantung jenis, motif dan kainnya. Jarak toko ini dengan Bandar Udara Internasional Ngurah Rai Bali sekitar 4,8 km membuat toko ini sangat strategis untuk para wisatawan yang ingin membeli oleh-oleh."
+      ]
+    },
+    {
+      "tag": "penjelasan_desa_budaya_kertalangu",
+      "patterns": [
+        "Apa itu Desa Budaya Kertalangu?",
+        "Desa Budaya Kertalangu"
+      ],
+      "responses": [
+        "Desa Budaya Kertalangu merupakan tempat wisata yang berada di tengah areal persawahan sehingga kawasan ini terlihat hijau dan lapang sehingga bisa menghilangkan kejenuhan dan melepaskan diri dari hiruk pikuk keramaian kota. Lokasi Desa Budaya Kertalangu di desa Kesiman, Kec. Denpasar Timur, Denpasar, atau tepatnya di Jalan By Pass Ngurah Rai no 88, atau berada di sebelah Utara kawasan pariwisata pantai Sanur. Jarak desa ini dari Bandar Udara Internasional Ngurah Rai Bali sekitar 19,8 km atau 31 menit. Dengan membayar tiket masuk sebesar Rp 10.000 saat weekday maupun weekend, wisatawan sudah dapat memasuki tempat wisata ini. Kawasan ini terletak di atas lahan seluas 80 hektar, dengan beberapa buah bangunan dan penunjang fasilitas yang dikelilingi areal persawahan, serta taman-taman hijau yang tumbuh subur dan tertata rapi. Lokasi objek wisata Desa Budaya Kertalangu Denpasar ini sangat strategis berada di pinggir jalan raya utama, sehingga kendaraan seperti mobil bahkan bus-bus pariwisata yang biasa digunakan oleh anak-anak sekolah saat study tour bisa parkir dengan leluasa di tempat wisata ini. Dari areal parkir kendaraan anda masuk ke dalam tempat wisata ini, dan tidak akan menyangka bahwa ada lahan hijau yang cukup luas di dalamnya, karena dari luarnya tertutup oleh penjual tanaman-tanaman hias."
+      ]
+    },
+    {
+      "tag": "penjelasan_desa_celuk",
+      "patterns": [
+        "Apa itu Desa Celuk?",
+        "Desa Celuk"
+      ],
+      "responses": [
+        "Desa Celuk merupakan sebuah desa di Gianyar dengan hasil produksi kerajinan perak dan emas yang tersohor bahkan sampai ke mancanegara. Desa ini berjarak sekitar 26,9 km atau dapat ditempuh selama 41 menit dari Bandar Udara Ngurah Rai Bali. Para pelancong bisa datang dan berkunjung ke desa ini untuk melihat dari dekat para seniman mengerjakan kerajinan tradisional ini, berkreasi membuat perhiasan emas dan perak dengan hasil produksi bermutu tinggi. Pengunjung dapat dengan mudah menemukan ataupun bisa membeli langsung perhiasan-perhiasan di etalase yang dipajang langsung di workshop para seniman. Dipastikan produk yang dihasilkan berkualitas baik dan bermutu tinggi. Hampir semua penduduk celuk merupakan pengrajin emas dan perak yang terampil, kreatif, juga inovatif dalam seni mengembangkan kreasi desain dan variasi terkait dengan kerajinan emas dan perak di mana hasil produksinya telah memasuki pasar lokal, nasional merambah juga ke pasaran international. Beragam jenis kreasi dan variasi perhiasan, baik sebagai cendramata maupun komoditi ekspor diproduksi di desa ini seperti cincin, gelang, kalung, anting-anting, giwang, bross dan berbagai jenis perhiasan lainnya."
+      ]
+    },
+    {
+      "tag": "penjelasan_desa_tohpati",
+      "patterns": [
+        "Apa itu Desa Tohpati?",
+        "Desa Tohpati"
+      ],
+      "responses": [
+        "Desa Tohpati merupakan pusat dari kerajian batik yang ada di Bali. Desa ini berjarak sekitar 49,5 km atau dapat ditempuh selama 1 jam 7 menit dari Bandar Udara Internasional Ngurah Rai Bali. enduduk lokal mempertahankan seni batik, sehingga di Desa Tohpati ini terdapat beberapa butik, toko batik. Banyak wisatawan yang berkunjung ke Desa Tohpati untuk berburu batik. Batik yang ada di Desa Budaya Tohpati Klungkung bisa dibilang motifnya tidak begitu berbeda dengan batik-batik lainnya di daerah lain di Bali. Motifnya masih mempertahankan sisi tradisional, dimana terdapat rusa, kura-kura, burung atau naga. Akhir-akhir ini yang sedang berkembang adalah bertemakan pemandangan yang dipadu padankan dengan warna cerah. Berkunjung ke Desa Tohpati dijamin tidak akan kalah seru dengan mengunjungi objek-objek wisata seperti pantai, air terjun, atau lainnya. Disini anda dapat merasakan menjadi penduduk lokal dan melihat keseharian dari penduduk lokal."
+      ]
+    },
+    {
+      "tag": "penjelasan_garuda_wisnu_kencana",
+      "patterns": [
+        "Apa itu Garuda Wisnu Kencana?",
+        "Garuda Wisnu Kencana"
+      ],
+      "responses": [
+        "Garuda Wisnu Kencana merupakan sebuah patung raksasa karya salah satu pematung kenamaan asal Bali, Nyoman Nuarta. Patung ini berbentuk Batara Wisnu yang menunggangi hewan legendaris garuda sebagai simbol Amerta, kebajikan yang abadi. Patung ini berlokasi di Badung yang berjarak 11,2 km atau dapat ditempuh selama 21 menit dari Bandar Udara Ngurah Rai Bali dengan tiket masuk sebesar Rp 95.000 saat weekday maupun weekend. Patung tersebut berwujud Dewa Wisnu yang dalam agama Hindu adalah Dewa Pemelihara (Sthiti), mengendarai burung Garuda. Tokoh Garuda dapat dilihat di kisah Garuda & Kerajaannya yang berkisah mengenai rasa bakti dan pengorbanan burung Garuda untuk menyelamatkan ibunya dari perbudakan yang akhirnya dilindungi oleh Dewa Wisnu. Patung ini diproyeksikan untuk mengikat tata ruang dengan jarak pandang sampai dengan 20 km sehingga dapat terlihat dari Kuta, Sanur, Nusa Dua hingga Tanah Lot. Patung Garuda Wisnu Kencana ini merupakan simbol dari misi penyelamatan lingkungan dan dunia. Patung ini terbuat dari campuran tembaga dan baja seberat 4.000 ton, dengan tinggi 75 meter dan lebar 60 meter. Jika pembangunannya selesai, patung ini akan menjadi salah satu patung terbesar di Asia dan akan lebih tinggi daripada Patung Liberty."
+      ]
+    },
+    {
+      "tag": "penjelasan_monumen_bajra_sandhi",
+      "patterns": [
+        "Apa itu Monumen Bajra Sandhi?",
+        "Monumen Bajra Sandhi"
+      ],
+      "responses": [
+        "Monumen Bajra Sandhi atau disebut juga Monumen Perjuangan Rakyat Bali adalah monumen perjuangan rakyat Bali yang terletak di Renon, Kota Denpasar, Bali. Berjarak sekitar 15,4 km atau dapat ditempuh selama 26 menit dari Bandar Udara Internasional Ngurah Rai Bali. Tiket masuk ke monumen ini adalah Rp 25.000 saat weekday maupun weekend. Monumen Bajra Sandhi merupakan Monumen Perjuangan Rakyat Bali untuk memberi hormat pada para pahlawan serta merupakan lambang pesemaian pelestarian jiwa perjuangan rakyat Bali dari generasi ke generasi dan dari zaman ke zaman serta lambang semangat untuk mempertahankan keutuhan Negara Kesatuan Republik Indonesia. Hal ini dapat dilihat dari 17 anak tangga yang ada di pintu utama, 8 buah tiang agung di dalam gedung monumen, dan monumen yang menjulang setinggi 45 meter. Monumen ini dikenal dengan nama 'Bajra Sandhi' karena bentuknya menyerupai bajra atau genta yang digunakan oleh para Pendeta Hindu dalam mengucapkan Weda (mantra) pada saat upacara keagamaan. Tujuan pembangunan monumen ini adalah untuk mengabadikan jiwa dan semangat perjuangan rakyat Bali, sekaligus menggali, memelihara, mengembangkan serta melestarikan budaya Bali untuk diwariskan kepada generasi penerus sebagai modal melangkah maju menapak dunia yang semakin sarat dengan tantangan dan hambatan."
+      ]
+    },
+    {
+      "tag": "penjelasan_desa_wisata_penglipuran",
+      "patterns": [
+        "Apa itu Desa Wisata Penglipuran?",
+        "Desa Wisata Penglipuran"
+      ],
+      "responses": [
+        "Desa Wisata Penglipuran merupakan salah satu desa adat dari Kabupaten Bangli, Provinsi Bali, Indonesia. Desa ini terkenal sebagai salah satu destinasi wisata di Bali karena masyarakatnya yang masih menjalankan dan melestarikan budaya tradisional Bali di kehidupan mereka sehari-hari. Arsitektur bangunan dan pengolahan lahan masih mengikuti konsep Tri Hita Karana, filosofi masyarakat Bali mengenai keseimbangan hubungan antara Tuhan, manusia ,dan lingkungannya. Mereka berhasil membangun pariwisata yang menguntungkan seluruh masyarakatnya tanpa menghilangkan budaya dan tradisi mereka. Jarak desa ini dari Bandar Udara Ngurah Rai Bali sekitar 55 km atau dapat ditempuh sekitar 1 jam 17 menit. Harga tiket masuk ke desa wisata ini adalah Rp 25.000 saat weekday maupun weekend."
+      ]
+    },
+    {
+      "tag": "penjelasan_tari_barong_dan_keris",
+      "patterns": [
+        "Apa itu Tari Barong dan Keris?",
+        "Tari Barong dan Keris"
+      ],
+      "responses": [
+        "Tari Barong dan Keris merupakan tarian khas Bali yang menggambarkan pertarungan antara kebajikan (dharma) dan kebatilan (adharma). Wujud kebajikan dilakonkan oleh Barong sementara wujud kebatilan dimainkan oleh Rangda, yaitu sosok yang menyeramkan dengan dua taring runcing di mulutnya. Keistimewaan Tari Barong terletak pada unsur-unsur komedi dan unsur-unsur mitologis yang membentuk seni pertunjukan. Unsur-unsur komedi biasanya diselipkan di tengah-tengah pertunjukan untuk memancing tawa penonton. Tarian ini biasanya dipentaskan di Gianyar yang berjarak 23,8 km atau dapat ditempuh selama 37 menit dari Bandar Udara Ngurah Rai Bali. Dengan membayar tiket masuk sebesar Rp 100.000 saat weekday maupun weekend, wisatawan sudah dapat menikmati pertunjukan ini."
+      ]
+    },
+    {
+      "tag": "penjelasan_kecak_and_fire_dance",
+      "patterns": [
+        "Apa itu Kecak and Fire Dance?",
+        "Kecak and Fire Dance"
+      ],
+      "responses": [
+        "Kecak and Fire Dance merupakan salah satu pertunjukan seni tari hiburan di Bali yang menggunakan suara vocal manusia sebagai pengganti instrument gamelan serta dilengkapi dengan pertunjukan api yang keren. Untuk pertunjukan dan pencahayaan kontras yang maksimal, acara ini harus digelar setelah matahari terbenam. Biasa dilaksanakan di Badung yang berjarak 20,9 km atau dapat ditempuh selama 37 menit dari Bandar Udara Ngurah Rai Bali. Dengan membayar tiket masuk sebesar Rp 150.000 saat weekday maupun weekend, wisatawan sudah dapat menikmati pertunjukan ini."
+      ]
+    },
+    {
+      "tag": "penjelasan_bali_bird_park",
+      "patterns": [
+        "Apa itu Bali Bird Park?",
+        "Bali Bird Park"
+      ],
+      "responses": [
+        "Bali Bird Park merupakan atraksi wisata sekaligus tempat penangkaran berbagai jenis spesies burung baik yang berasal dari Indonesia maupun mancanegara. Berlokasi di Gianyar yang berjarak 25,2 km atau dapat ditempuh 41 menit dari Bandar Udara Internasional Ngurah Rai Bali. Dengan membayar tiket masuk seebsar Rp 95.000 saat weekday dan Rp 110.000 saat weekend, wisatawan sudah dapat memasuki tempat wisata ini. Selain menampilkan kehidupan alami berbagai jenis burung, bermacam-macam fasilitas dan program spesial diselenggarakan dengan fungsi mendidik dan penangkaran."
+      ]
+    },
+    {
+      "tag": "penjelasan_monkey_forest_ubud",
+      "patterns": [
+        "Apa itu Monkey Forest Ubud?",
+        "Monkey Forest Ubud"
+      ],
+      "responses": [
+        "Monkey Forest Ubud atau disebut juga Mandala Suci Wenara Wana merupakan sebuah kawasan cagar alam sekaligus komplek candi yang terletak di Ubud, Bali. Berlokasi sekitar 35,3 km atau dapat ditempuh selama 1 jam 1 menit dari Bandar Udara Internasional Ngurah Rai Bali. Dengan membayar tiket masuk sebesar Rp 60.000 saat weekday maupun weekend, wisatawan sudah dapat memasuki tempat wisata ini. Tempat ini merupakan salah satu destinasi wisata populer di Ubud dan sering dikunjungi oleh lebih dari 10.000 wisatawan setiap bulannya. Kawasan ini menjadi tempat tinggal bagi sekitar 340 ekor Macaca fascicularis yang lebih dikenal dengan kera ekor panjang. Kawanan monyet ini terbagi menjadi empat kelompok yang masing-masing menempati kawasan berbeda di dalam hutan."
+      ]
+    },
+    {
+      "tag": "penjelasan_pantai_jimbaran",
+      "patterns": [
+        "Apa daya tarik dari Pantai Jimbaran? ",
+        "Apa yang menarik di Pantai Jimbaran?",
+        "Fasilitas apa saja yang ada di Pantai Jimbaran?",
+        "Pantai Jimbaran ada di mana?",
+        "Pantai Jimbaran daerah mana?",
+        "Bagaimana cara ke Pantai Jimbaran",
+        "Kalo ke mau ke Pantai Jimbaran naik apa?",
+        "Naik apa ke Pantai Jimbaran?",
+        "Berapa harga tiket masuk Pantai Jimbaran?",
+        "Harga tiket masuk Pantai Jimbaran berapa?",
+        "Bagaimana cara beli tiket masuk Pantai Jimbaran?",
+        "Gimana carai beli tiket masuk Pantai Jimbaran?",
+        "Pantai Jimbaran buka jam berapa?",
+        "Pantai Jimbaran tutup jam berapa?",
+        "Jam buka-tutup Pantai Jimbaran",
+        "Jam operasional Pantai Jimbaran",
+        ""
+      ],
+      "responses": [
+        "Pantai Jimbaran merupakan salah satu pantai yang berada di sebelah selatan Bali, di Kabupaten Badung. Sunset dan makanan seafood menjadi daya tarik Pantai Jimbaran. Ada beberapa pilihan transportasi yang dapat anda gunakan untuk ke Pantai Jimbaran diantaranya, menggunakan bus sarbagita, taksi/ ojek online, dan kendaraan pribadi. Tidak perlu tiket masuk untuk ke Pantai Jimbaran, anda cukup membayar parkir kendaraan sebesar Rp 5.000,- per kendaraan roda dua dan Rp 10.000,- per kendaraan roda empat."
+      ]
+    },
+    {
+      "tag": "penjelasan_pantai_Angel's_Billabong",
+      "patterns": [
+        "Apa daya tarik dari Pantai Angel's Billabong? ",
+        "Apa yang menarik di Pantai Angel's Billabong?",
+        "Fasilitas apa saja yang ada di Pantai Angel's Billabong?",
+        "Pantai Angel's Billabong ada di mana?",
+        "Pantai Angel's Billabong daerah mana?",
+        "Bagaimana cara ke Pantai Angel's Billabong",
+        "Kalo ke mau ke Pantai Angel's Billabong naik apa?",
+        "Naik apa ke Pantai Angel's Billabong?",
+        "Berapa harga tiket masuk Pantai Angel's Billabong?",
+        "Harga tiket masuk Pantai Angel's Billabong berapa?",
+        "Bagaimana cara beli tiket masuk Pantai Angel's Billabong?",
+        "Gimana carai beli tiket masuk Pantai Angel's Billabong?",
+        "Pantai Angel's Billabong buka jam berapa?",
+        "Pantai Angel's Billabong tutup jam berapa?",
+        "Jam buka-tutup Pantai Angel's Billabong",
+        "Jam operasional Pantai Angel's Billabong",
+        ""     
+      ],
+      "responses": [
+        "Pantai Angel's Billabong merupakan salah satu pantai di Nusa Penida, Kabupaten Klungkung. Untuk ke Pantai Angel's Billabong anda dapat menggunakan speedboat dari Pantai Sanur, Nusa Dua maupun Tanjung Benoa dengan harga Rp 50.000,- s/d Rp 250.0000,-. Anda dapat menyewa villa yang ada untuk menginap. Di Nusa Penida, anda juga dapat menyewa kendaraan sebagai moda transportasi dengan kisaran harga Rp 50.000,- s/d Rp 150.000,- per hari untuk kendaraan roda dua, sedangkan untuk kendaraan roda empat berkisar Rp 400.000,- s/d Rp 750.000,- per hari karena tidak ada kendaraan umum di Nusa Penida."
+      ]
+    },
+    {
+      "tag": "penjelasan_pantai_Atuh",
+      "patterns": [
+        "Apa daya tarik dari Pantai Atuh? ",
+        "Apa yang menarik di Pantai Atuh?",
+        "Fasilitas apa saja yang ada di Pantai Atuh?",
+        "Pantai Atuh ada di mana?",
+        "Pantai Atuh daerah mana?",
+        "Bagaimana cara ke Pantai Atuh",
+        "Kalo ke mau ke Pantai Atuh naik apa?",
+        "Naik apa ke Pantai Atuh?",
+        "Berapa harga tiket masuk Pantai Atuh?",
+        "Harga tiket masuk Pantai Atuh berapa?",
+        "Bagaimana cara beli tiket masuk Pantai Atuh?",
+        "Gimana carai beli tiket masuk Pantai Atuh?",
+        "Pantai Atuh buka jam berapa?",
+        "Pantai Atuh tutup jam berapa?",
+        "Jam buka-tutup Pantai Atuh",
+        "Jam operasional Pantai Atuh",
+        ""     
+      ],
+      "responses": [
+        "Pantai Atuh merupakan salah satu pantai di Nusa Penida, Kabupaten Klungkung. Untuk ke Pantai Atuh anda dapat menggunakan speedboat dari Pantai Sanur, Nusa Dua maupun Tanjung Benoa dengan harga Rp 50.000,- s/d Rp 250.0000,-. Anda dapat menyewa villa yang ada untuk menginap. Di Nusa Penida, anda juga dapat menyewa kendaraan sebagai moda transportasi dengan kisaran harga Rp 50.000,- s/d Rp 150.000,- per hari untuk kendaraan roda dua, sedangkan untuk kendaraan roda empat berkisar Rp 400.000,- s/d Rp 750.000,- per hari karena tidak ada kendaraan umum di Nusa Penida."
+      ]
+    },
+    {
+      "tag": "penjelasan_pantai_Blue_Lagoon",
+      "patterns": [
+        "Apa daya tarik dari Pantai Blue Lagoon? ",
+        "Apa yang menarik di Pantai Blue Lagoon?",
+        "Fasilitas apa saja yang ada di Pantai Blue Lagoon?",
+        "Pantai Blue Lagoon ada di mana?",
+        "Pantai Blue Lagoon daerah mana?",
+        "Bagaimana cara ke Pantai Blue Lagoon",
+        "Kalo ke mau ke Pantai Blue Lagoon naik apa?",
+        "Naik apa ke Pantai Blue Lagoon?",
+        "Berapa harga tiket masuk Pantai Blue Lagoon?",
+        "Harga tiket masuk Pantai Blue Lagoon berapa?",
+        "Bagaimana cara beli tiket masuk Pantai Blue Lagoon?",
+        "Gimana carai beli tiket masuk Pantai Blue Lagoon?",
+        "Pantai Blue Lagoon buka jam berapa?",
+        "Pantai Blue Lagoon tutup jam berapa?",
+        "Jam buka-tutup Pantai Blue Lagoon",
+        "Jam operasional Pantai Blue Lagoon",
+        "Berapa lama ke Pantai Blue Lagoon?",
+        "Estimasi waktu perjalanan ke Pantai Blue Lagoon"     
+      ],
+      "responses": [
+        "Pantai Blue Lagoon merupakan salah satu pantai di Kabupaten Karangasem, dekat Pelabuhan Padang Bai. Untuk ke Pantai Blue Lagoon anda dapat menggunakan kendaraan pribadi atau menyewa kendaraan karena minimnya transportasi umum. Anda juga dapat menyewa kendaraan sebagai moda transportasi dengan kisaran harga Rp 50.000,- s/d Rp 150.000,- per hari untuk kendaraan roda dua, sedangkan untuk kendaraan roda empat berkisar Rp 400.000,- s/d Rp 750.000,- per hari. Estimasi waktu perjalanan dari Denpasar ke Pantai Blue Lagoon sekitar 3 jam."
+      ]
+    },
+    {
+      "tag": "penjelasan_pantai_Canggu",
+      "patterns": [
+        "Apa daya tarik dari Pantai Canggu? ",
+        "Apa yang menarik di Pantai Canggu?",
+        "Fasilitas apa saja yang ada di Pantai Canggu?",
+        "Pantai Canggu ada di mana?",
+        "Pantai Canggu daerah mana?",
+        "Bagaimana cara ke Pantai Canggu",
+        "Kalo ke mau ke Pantai Canggu naik apa?",
+        "Naik apa ke Pantai Canggu?",
+        "Berapa harga tiket masuk Pantai Canggu?",
+        "Harga tiket masuk Pantai Canggu berapa?",
+        "Bagaimana cara beli tiket masuk Pantai Canggu?",
+        "Gimana carai beli tiket masuk Pantai Canggu?",
+        "Pantai Canggu buka jam berapa?",
+        "Pantai Canggu tutup jam berapa?",
+        "Jam buka-tutup Pantai Canggu",
+        "Jam operasional Pantai Canggu",
+        "Berapa lama ke Pantai Canggu?",
+        "Estimasi waktu perjalanan ke Pantai Canggu"     
+      ],
+      "responses": [
+        "Pantai Canggu merupakan salah satu pantai di Kabupaten Badung. Banyaknya kafe dan bar di wilayah Canggun menjadi daya tarik tersendiri bagi wisatawan, selain keindahan senjanya. Untuk ke Pantai Canggu anda dapat menggunakan kendaraan pribadi maupun taksi/ ojek online. Anda juga dapat menyewa kendaraan sebagai moda transportasi dengan kisaran harga Rp 50.000,- s/d Rp 150.000,- per hari untuk kendaraan roda dua, sedangkan untuk kendaraan roda empat berkisar Rp 400.000,- s/d Rp 750.000,- per hari."
+      ]
+    },
+    {
+      "tag": "penjelasan_pantai_Diamond",
+      "patterns": [
+        "Apa daya tarik dari Pantai Diamond? ",
+        "Apa yang menarik di Pantai Diamond?",
+        "Fasilitas apa saja yang ada di Pantai Diamond?",
+        "Pantai Diamond ada di mana?",
+        "Pantai Diamond daerah mana?",
+        "Bagaimana cara ke Pantai Diamond",
+        "Kalo ke mau ke Pantai Diamond naik apa?",
+        "Naik apa ke Pantai Diamond?",
+        "Berapa harga tiket masuk Pantai Diamond?",
+        "Harga tiket masuk Pantai Diamond berapa?",
+        "Bagaimana cara beli tiket masuk Pantai Diamond?",
+        "Gimana carai beli tiket masuk Pantai Diamond?",
+        "Pantai Diamond buka jam berapa?",
+        "Pantai Diamond tutup jam berapa?",
+        "Jam buka-tutup Pantai Diamond",
+        "Jam operasional Pantai Diamond",
+        "Berapa lama ke Pantai Diamond?",
+        "Estimasi waktu perjalanan ke Pantai Diamond"     
+      ],
+      "responses": [
+        "Pantai Diamond merupakan salah satu pantai di Nusa Penida, Kabupaten Klungkung. Untuk ke Pantai Diamond anda dapat menggunakan speedboat dari Pantai Sanur, Nusa Dua maupun Tanjung Benoa dengan harga Rp 50.000,- s/d Rp 250.0000,-. Anda dapat menyewa villa yang ada untuk menginap di sana. Di Nusa Penida, anda juga dapat menyewa kendaraan sebagai moda transportasi dengan kisaran harga Rp 50.000,- s/d Rp 150.000,- per hari untuk kendaraan roda dua, sedangkan untuk kendaraan roda empat berkisar Rp 400.000,- s/d Rp 750.000,- per hari karena tidak ada kendaraan umum di Nusa Penida."
+      ]
+    },
+    {
+      "tag": "penjelasan_pantai_DoubleSix",
+      "patterns": [
+        "Apa daya tarik dari Pantai Double Six? ",
+        "Apa yang menarik di Pantai Double Six?",
+        "Fasilitas apa saja yang ada di Pantai Double Six?",
+        "Pantai Double Six ada di mana?",
+        "Pantai Double Six daerah mana?",
+        "Bagaimana cara ke Pantai Double Six",
+        "Kalo ke mau ke Pantai Double Six naik apa?",
+        "Naik apa ke Pantai Double Six?",
+        "Berapa harga tiket masuk Pantai Double Six?",
+        "Harga tiket masuk Pantai Double Six berapa?",
+        "Bagaimana cara beli tiket masuk Pantai Double Six?",
+        "Gimana carai beli tiket masuk Pantai Double Six?",
+        "Pantai Double Six buka jam berapa?",
+        "Pantai Double Six tutup jam berapa?",
+        "Jam buka-tutup Pantai Double Six",
+        "Jam operasional Pantai Double Six",
+        "Berapa lama ke Pantai Double Six?",
+        "Estimasi waktu perjalanan ke Pantai Double Six"     
+      ],
+      "responses": [
+        "Pantai Double Six merupakan salah satu pantai di Kabupaten Badung. Menikmati matahari terbenam menjadi daya tarik tersendiri di Pantai Double Six. Anda dapat naik kendaraan pribadi maupun taksi/ ojek online untuk ke Pantai Double Six. Tidak hanya itu, anda juga dapat menyewa kendaraan. Anda tidak perlu membayar tiket masuk untuk ke Pantai Double Six, cukup membayar parkir kendaraan. "
+      ]
+    },
+    {
+      "tag": "penjelasan_pantai_Dreamland",
+      "patterns": [
+        "Apa daya tarik dari Pantai Dreamland? ",
+        "Apa yang menarik di Pantai Dreamland?",
+        "Fasilitas apa saja yang ada di Pantai Dreamland?",
+        "Pantai Dreamland ada di mana?",
+        "Pantai Dreamland daerah mana?",
+        "Bagaimana cara ke Pantai Dreamland",
+        "Kalo ke mau ke Pantai Dreamland naik apa?",
+        "Naik apa ke Pantai Dreamland?",
+        "Berapa harga tiket masuk Pantai Dreamland?",
+        "Harga tiket masuk Pantai Dreamland berapa?",
+        "Bagaimana cara beli tiket masuk Pantai Dreamland?",
+        "Gimana carai beli tiket masuk Pantai Dreamland?",
+        "Pantai Dreamland buka jam berapa?",
+        "Pantai Dreamland tutup jam berapa?",
+        "Jam buka-tutup Pantai Dreamland",
+        "Jam operasional Pantai Dreamland",
+        "Berapa lama ke Pantai Dreamland?",
+        "Estimasi waktu perjalanan ke Pantai Dreamland"     
+      ],
+      "responses": [
+        "Pantai Dreamland merupakan salah satu pantai di Kabupaten Badung. Menikmati matahari terbenam menjadi daya tarik tersendiri di Pantai Dreamland. Anda dapat naik kendaraan pribadi maupun taksi/ ojek online untuk ke Pantai Dreamland. Tidak hanya itu, anda juga dapat menyewa kendaraan. Anda tidak perlu membayar tiket masuk untuk ke Pantai Double Six, cukup membayar parkir kendaraan. "
+      ]
+    },
+    {
+      "tag": "penjelasan_Kelingking_Beach",
+      "patterns": [
+        "Apa daya tarik dari Kelingking Beach? ",
+        "Apa yang menarik di Kelingking Beach?",
+        "Fasilitas apa saja yang ada di Kelingking Beach?",
+        "Kelingking Beach ada di mana?",
+        "Kelingking Beach daerah mana?",
+        "Bagaimana cara ke Kelingking Beach",
+        "Kalo ke mau ke Kelingking Beach naik apa?",
+        "Naik apa ke Kelingking Beach?",
+        "Berapa harga tiket masuk Kelingking Beach?",
+        "Harga tiket masuk Kelingking Beach berapa?",
+        "Bagaimana cara beli tiket masuk Kelingking Beach?",
+        "Gimana carai beli tiket masuk Kelingking Beach?",
+        "Kelingking Beach buka jam berapa?",
+        "Kelingking Beach tutup jam berapa?",
+        "Jam buka-tutup Kelingking Beach",
+        "Jam operasional Kelingking Beach",
+        "Berapa lama ke Kelingking Beach?",
+        "Estimasi waktu perjalanan ke Kelingking Beach"     
+      ],
+      "responses": [
+        "Kelingking Beach merupakan salah satu pantai di Nusa Penida, Kabupaten Klungkung. Untuk ke Kelingking Beach anda dapat menggunakan speedboat dari Pantai Sanur, Nusa Dua maupun Tanjung Benoa dengan harga Rp 50.000,- s/d Rp 250.0000,-. Anda dapat menyewa villa yang ada untuk menginap. Di Nusa Penida, anda juga dapat menyewa kendaraan sebagai moda transportasi dengan kisaran harga Rp 50.000,- s/d Rp 150.000,- per hari untuk kendaraan roda dua, sedangkan untuk kendaraan roda empat berkisar Rp 400.000,- s/d Rp 750.000,- per hari karena tidak ada kendaraan umum di Nusa Penida."
+      ]
+    },
+    {
+      "tag": "penjelasan_Pantai_Kuta",
+      "patterns": [
+        "Apa daya tarik dari Pantai Kuta? ",
+        "Apa yang menarik di Pantai Kuta?",
+        "Fasilitas apa saja yang ada di Pantai Kuta?",
+        "Pantai Kuta ada di mana?",
+        "Pantai Kuta daerah mana?",
+        "Bagaimana cara ke Pantai Kuta",
+        "Kalo ke mau ke Pantai Kuta naik apa?",
+        "Naik apa ke Pantai Kuta?",
+        "Berapa harga tiket masuk Pantai Kuta?",
+        "Harga tiket masuk Pantai Kuta berapa?",
+        "Bagaimana cara beli tiket masuk Pantai Kuta?",
+        "Gimana carai beli tiket masuk Pantai Kuta?",
+        "Pantai Kuta buka jam berapa?",
+        "Pantai Kuta tutup jam berapa?",
+        "Jam buka-tutup Pantai Kuta",
+        "Jam operasional Pantai Kuta",
+        "Berapa lama ke Pantai Kuta?",
+        "Estimasi waktu perjalanan ke Pantai Kuta"     
+      ],
+      "responses": [
+        "Pantai Kuta merupakan salah satu pantai di Kabupaten Badung yang sudah dikenal banyak wisatawan. Menikmati matahari terbenam menjadi daya tarik tersendiri di Pantai Kuta, selian itu Anda juga dapat menikmati makanan dan minuman yang tersedia di kafe dan restoran di sepanjang Jalan Kuta. Unutk ke Pantai Kuta Anda dapat naik kendaraan pribadi, bus sarbagita dan metro trans dewata maupun taksi/ ojek online untuk ke Pantai Kuta. Tidak hanya itu, anda juga dapat menyewa kendaraan. Anda tidak perlu membayar tiket masuk untuk ke Pantai Double Six, cukup membayar parkir kendaraan."
+      ]
+    },
+    {
+      "tag": "penjelasan_Pantai_Melasti",
+      "patterns": [
+        "Apa daya tarik dari Pantai Melasti? ",
+        "Apa yang menarik di Pantai Melasti?",
+        "Fasilitas apa saja yang ada di Pantai Melasti?",
+        "Pantai Melasti ada di mana?",
+        "Pantai Melasti daerah mana?",
+        "Bagaimana cara ke Pantai Melasti",
+        "Kalo ke mau ke Pantai Melasti naik apa?",
+        "Naik apa ke Pantai Melasti?",
+        "Berapa harga tiket masuk Pantai Melasti?",
+        "Harga tiket masuk Pantai Melasti berapa?",
+        "Bagaimana cara beli tiket masuk Pantai Melasti?",
+        "Gimana carai beli tiket masuk Pantai Melasti?",
+        "Pantai Melasti buka jam berapa?",
+        "Pantai Melasti tutup jam berapa?",
+        "Jam buka-tutup Pantai Melasti",
+        "Jam operasional Pantai Melasti",
+        "Berapa lama ke Pantai Melasti?",
+        "Estimasi waktu perjalanan ke Pantai Melasti"     
+      ],
+      "responses": [
+        "Pantai Melasti merupakan salah satu pantai di Kabupaten Badung. Menikmati matahari terbenam menjadi daya tarik tersendiri di Pantai Melasti. Anda dapat naik kendaraan pribadi maupun taksi/ ojek online untuk ke Pantai Melasti. Tidak hanya itu, anda juga dapat menyewa kendaraan. Biaya tiket masuk Pantai Melasti Rp 10.000,- per orang dengan biaya parkir Rp 10.000,- untuk kendaraan roda dua, Rp 20.000,- untuk kendaraan roda empat dan Rp 50.000,- untuk bis pariwisata."
+      ]
+    },
+    {
+      "tag": "penjelasan_Pantai_Nusa_Dua",
+      "patterns": [
+        "Apa daya tarik dari Pantai Nusa Dua? ",
+        "Apa yang menarik di Pantai Nusa Dua?",
+        "Fasilitas apa saja yang ada di Pantai Nusa Dua?",
+        "Pantai Nusa Dua ada di mana?",
+        "Pantai Nusa Dua daerah mana?",
+        "Bagaimana cara ke Pantai Nusa Dua",
+        "Kalo ke mau ke Pantai Nusa Dua naik apa?",
+        "Naik apa ke Pantai Nusa Dua?",
+        "Berapa harga tiket masuk Pantai Nusa Dua?",
+        "Harga tiket masuk Pantai Nusa Dua berapa?",
+        "Bagaimana cara beli tiket masuk Pantai Nusa Dua?",
+        "Gimana carai beli tiket masuk Pantai Nusa Dua?",
+        "Pantai Nusa Dua buka jam berapa?",
+        "Pantai Nusa Dua tutup jam berapa?",
+        "Jam buka-tutup Pantai Nusa Dua",
+        "Jam operasional Pantai Nusa Dua",
+        "Berapa lama ke Pantai Nusa Dua?",
+        "Estimasi waktu perjalanan ke Pantai Nusa Dua"     
+      ],
+      "responses": [
+        "Pantai Nusa Dua merupakan salah satu pantai di Kabupaten Badung. Menikmati matahari terbit, selai Pantai Sanur menjadi daya tarik tersendiri di Pantai Nusa Dua. Anda dapat naik kendaraan pribadi maupun taksi/ ojek online untuk ke Pantai Melasti. Tidak hanya itu, anda juga dapat menyewa kendaraan."
+      ]
+    },
+    {
+      "tag": "penjelasan_Pantai_Padang_Padang",
+      "patterns": [
+        "Apa daya tarik dari Pantai Padang Padang? ",
+        "Apa yang menarik di Pantai Padang Padang?",
+        "Fasilitas apa saja yang ada di Pantai Padang Padang?",
+        "Pantai Padang Padang ada di mana?",
+        "Pantai Padang Padang daerah mana?",
+        "Bagaimana cara ke Pantai Padang Padang",
+        "Kalo ke mau ke Pantai Padang Padang naik apa?",
+        "Naik apa ke Pantai Padang Padang?",
+        "Berapa harga tiket masuk Pantai Padang Padang?",
+        "Harga tiket masuk Pantai Padang Padang berapa?",
+        "Bagaimana cara beli tiket masuk Pantai Padang Padang?",
+        "Gimana carai beli tiket masuk Pantai Padang Padang?",
+        "Pantai Padang Padang buka jam berapa?",
+        "Pantai Padang Padang tutup jam berapa?",
+        "Jam buka-tutup Pantai Padang Padang",
+        "Jam operasional Pantai Padang Padang",
+        "Berapa lama ke Pantai Padang Padang?",
+        "Estimasi waktu perjalanan ke Pantai Padang Padang"     
+      ],
+      "responses": [
+        "Pantai Padang Padang merupakan salah satu pantai di Kabupaten Badung. Menikmati matahari terbenam dengan bibir pantai yang cantik. Anda dapat naik kendaraan pribadi maupun taksi/ ojek online untuk ke Pantai Padang Padang. Tidak hanya itu, anda juga dapat menyewa kendaraan. Biaya masuk Pantai Padang Padang mulai dari Rp 5.000,- s/d Rp 10.000,- dengan biaya parkir Rp 2.000,- untuk kendaran roda dua dan Rp 5.000,- untuk kendaraan roda empat."
+      ]
+    },
+    {
+      "tag": "penjelasan_Pantai_Pandawa",
+      "patterns": [
+        "Apa daya tarik dari Pantai Pandawa? ",
+        "Apa yang menarik di Pantai Pandawa?",
+        "Fasilitas apa saja yang ada di Pantai Pandawa?",
+        "Pantai Pandawa ada di mana?",
+        "Pantai Pandawa daerah mana?",
+        "Bagaimana cara ke Pantai Pandawa",
+        "Kalo ke mau ke Pantai Pandawa naik apa?",
+        "Naik apa ke Pantai Pandawa?",
+        "Berapa harga tiket masuk Pantai Pandawa?",
+        "Harga tiket masuk Pantai Pandawa berapa?",
+        "Bagaimana cara beli tiket masuk Pantai Pandawa?",
+        "Gimana carai beli tiket masuk Pantai Pandawa?",
+        "Pantai Pandawa buka jam berapa?",
+        "Pantai Pandawa tutup jam berapa?",
+        "Jam buka-tutup Pantai Pandawa",
+        "Jam operasional Pantai Pandawa",
+        "Berapa lama ke Pantai Pandawa?",
+        "Estimasi waktu perjalanan ke Pantai Pandawa"     
+      ],
+      "responses": [
+        "Pantai Pandawa merupakan salah satu pantai di Kabupaten Badung. Menikmati matahari terbenam dengan bibir pantai yang cantik. Anda dapat naik kendaraan pribadi maupun taksi/ ojek online untuk ke Pantai Pandawa. Tidak hanya itu, anda juga dapat menyewa kendaraan. Biaya masuk Pantai Padang Padang mulai dari Rp 5.000,- s/d Rp 10.000,- dengan biaya parkir Rp 2.000,- untuk kendaran roda dua dan Rp 5.000,- untuk kendaraan roda empat."
+      ]
+    },
+    {
+      "tag": "penjelasan_Pantai_Pasir_Putih",
+      "patterns": [
+        "Apa daya tarik dari Pantai Pasir Putih? ",
+        "Apa yang menarik di Pantai Pasir Putih?",
+        "Fasilitas apa saja yang ada di Pantai Pasir Putih?",
+        "Pantai Pasir Putih ada di mana?",
+        "Pantai Pasir Putih daerah mana?",
+        "Bagaimana cara ke Pantai Pasir Putih",
+        "Kalo ke mau ke Pantai Pasir Putih naik apa?",
+        "Naik apa ke Pantai Pasir Putih?",
+        "Berapa harga tiket masuk Pantai Pasir Putih?",
+        "Harga tiket masuk Pantai Pasir Putih berapa?",
+        "Bagaimana cara beli tiket masuk Pantai Pasir Putih?",
+        "Gimana carai beli tiket masuk Pantai Pasir Putih?",
+        "Pantai Pasir Putih buka jam berapa?",
+        "Pantai Pasir Putih tutup jam berapa?",
+        "Jam buka-tutup Pasir Putih",
+        "Jam operasional Pasir Putih",
+        "Berapa lama ke Pasir Putih?",
+        "Estimasi waktu perjalanan ke Pasir Putih"     
+      ],
+      "responses": [
+        "Pasir Putih merupakan salah satu pantai di Nusa Penida, Kabupaten Klungkung. Untuk ke Pantai Pasih Uug anda dapat menggunakan speedboat dari Pantai Sanur, Nusa Dua maupun Tanjung Benoa dengan harga Rp 50.000,- s/d Rp 250.0000,-. Anda dapat menyewa villa yang ada untuk menginap. Di Nusa Penida, anda juga dapat menyewa kendaraan sebagai moda transportasi dengan kisaran harga Rp 50.000,- s/d Rp 150.000,- per hari untuk kendaraan roda dua, sedangkan untuk kendaraan roda empat berkisar Rp 400.000,- s/d Rp 750.000,- per hari karena tidak ada kendaraan umum di Nusa Penida."
+      ]
+    },
+    {
+      "tag": "penjelasan_Pantai_Pasih_Uug",
+      "patterns": [
+        "Apa daya tarik dari Pantai Pasih Uug? ",
+        "Apa yang menarik di Pantai Pasih Uug?",
+        "Fasilitas apa saja yang ada di Pantai Pasih Uug?",
+        "Pantai Pasih Uug ada di mana?",
+        "Pantai Pasih Uug daerah mana?",
+        "Bagaimana cara ke Pantai Pasih Uug",
+        "Kalo ke mau ke Pantai Pasih Uug naik apa?",
+        "Naik apa ke Pantai Pasih Uug?",
+        "Berapa harga tiket masuk Pantai Pasih Uug?",
+        "Harga tiket masuk Pantai Pasih Uug berapa?",
+        "Bagaimana cara beli tiket masuk Pantai Pasih Uug?",
+        "Gimana carai beli tiket masuk Pantai Pasih Uug?",
+        "Pantai Pasih Uug buka jam berapa?",
+        "Pantai Pasih Uug tutup jam berapa?",
+        "Jam buka-tutup Pantai Pasih Uug",
+        "Jam operasional Pantai Pasih Uug",
+        "Berapa lama ke Pantai Pasih Uug?",
+        "Estimasi waktu perjalanan ke Pantai Pasih Uug"     
+      ],
+      "responses": [
+        "Pantai Pasih Uug merupakan salah satu pantai di Nusa Penida, Kabupaten Klungkung. Untuk ke Pantai Pasih Uug anda dapat menggunakan speedboat dari Pantai Sanur, Nusa Dua maupun Tanjung Benoa dengan harga Rp 50.000,- s/d Rp 250.0000,-. Anda dapat menyewa villa yang ada untuk menginap. Di Nusa Penida, anda juga dapat menyewa kendaraan sebagai moda transportasi dengan kisaran harga Rp 50.000,- s/d Rp 150.000,- per hari untuk kendaraan roda dua, sedangkan untuk kendaraan roda empat berkisar Rp 400.000,- s/d Rp 750.000,- per hari karena tidak ada kendaraan umum di Nusa Penida."
+      ]
+    },
+    {
+      "tag": "penjelasan_Pantai_Sanur",
+      "patterns": [
+        "Apa daya tarik dari Pantai Sanur? ",
+        "Apa yang menarik di Pantai Sanur?",
+        "Fasilitas apa saja yang ada di Pantai Sanur?",
+        "Pantai Sanur ada di mana?",
+        "Pantai Sanur daerah mana?",
+        "Bagaimana cara ke Pantai Sanur",
+        "Kalo ke mau ke Pantai Sanur naik apa?",
+        "Naik apa ke Pantai Sanur?",
+        "Berapa harga tiket masuk Pantai Sanur?",
+        "Harga tiket masuk Pantai Sanur berapa?",
+        "Bagaimana cara beli tiket masuk Pantai Sanur?",
+        "Gimana carai beli tiket masuk Pantai Sanur?",
+        "Pantai Sanur buka jam berapa?",
+        "Pantai Sanur tutup jam berapa?",
+        "Jam buka-tutup Pantai Sanur",
+        "Jam operasional Pantai Sanur",
+        "Berapa lama ke Pantai Sanur?",
+        "Estimasi waktu perjalanan ke Pantai Sanur"     
+      ],
+      "responses": [
+        "Pantai Sanur berada di Kota Denpasar. Anda dapat menikmati matahari terbit dari Pantai Sanur. Selain itu, anda juga dapat bermain kayak dan berenang. Anda juga dapat menyusuri garis Pantai Sanur menggunakan sepeda. Anda juga dapat ke Nusa Penida menggunakan speadboat dari Pantai Sanur. Untuk masuk ke Pantai Sanur, anda hanya perlu membayar parkir Rp 2.000,- per kendaraan roda dua dan Rp 5.000,- untuk kendaraan roda empat. Pantai Sanur tidak jauh dari pusat kota Denpasar."
+      ]
+    },
+    {
+      "tag": "penjelasan_Pantai_Seminyak",
+      "patterns": [
+        "Apa daya tarik dari Pantai Seminyak? ",
+        "Apa yang menarik di Pantai Seminyak?",
+        "Fasilitas apa saja yang ada di Pantai Seminyak?",
+        "Pantai Seminyak ada di mana?",
+        "Pantai Seminyak daerah mana?",
+        "Bagaimana cara ke Pantai Seminyak",
+        "Kalo ke mau ke Pantai Seminyak naik apa?",
+        "Naik apa ke Pantai Seminyak?",
+        "Berapa harga tiket masuk Pantai Seminyak?",
+        "Harga tiket masuk Pantai Seminyak berapa?",
+        "Bagaimana cara beli tiket masuk Pantai Seminyak?",
+        "Gimana carai beli tiket masuk Pantai Seminyak?",
+        "Pantai Seminyak buka jam berapa?",
+        "Pantai Seminyak tutup jam berapa?",
+        "Jam buka-tutup Pantai Seminyak",
+        "Jam operasional Pantai Seminyak",
+        "Berapa lama ke Pantai Seminyak?",
+        "Estimasi waktu perjalanan ke Pantai Seminyak"     
+      ],
+      "responses": [
+        "Pantai Seminyak merupakan salah satu pantai di Kabupaten Badung yang sudah dikenal banyak wisatawan. Menikmati matahari terbenam menjadi daya tarik tersendiri di Pantai Seminyak, selian itu Anda juga dapat menikmati makanan dan minuman yang tersedia di kafe dan restoran di sepanjang pantai. Unutk ke Pantai Seminyak Anda dapat naik kendaraan pribadi, bus sarbagita dan metro trans dewata maupun taksi/ ojek online untuk ke Pantai Seminyak. Tidak hanya itu, anda juga dapat menyewa kendaraan. Anda tidak perlu membayar tiket masuk untuk ke Pantai Seminyak, cukup membayar parkir kendaraan."
+      ]
+    },
+    {
+      "tag": "penjelasan_Pantai_Waterblow",
+      "patterns": [
+        "Apa daya tarik dari Pantai Waterblow? ",
+        "Apa yang menarik di Pantai Waterblow?",
+        "Fasilitas apa saja yang ada di Pantai Waterblow?",
+        "Pantai Waterblow ada di mana?",
+        "Pantai Waterblow daerah mana?",
+        "Bagaimana cara ke Pantai Waterblow",
+        "Kalo ke mau ke Pantai Waterblow naik apa?",
+        "Naik apa ke Pantai Waterblow?",
+        "Berapa harga tiket masuk Pantai Waterblow?",
+        "Harga tiket masuk Pantai Waterblow berapa?",
+        "Bagaimana cara beli tiket masuk Pantai Waterblow?",
+        "Gimana carai beli tiket masuk Pantai Waterblow?",
+        "Pantai Waterblow buka jam berapa?",
+        "Pantai Waterblow tutup jam berapa?",
+        "Jam buka-tutup Pantai Waterblow",
+        "Jam operasional Pantai Waterblow",
+        "Berapa lama ke Pantai Waterblow?",
+        "Estimasi waktu perjalanan ke Pantai Waterblow"     
+      ],
+      "responses": [
+        "Pantai Waterblow masih terletak dalam satu kawasan dengan ITDC dan Pantai Nusa Dua sehingga bisa anda gabungkan juga dalam kunjungan wisata ke Bali Selatan. Berjarak sekitar 30 menit perjalanan dari Kuta atau Bandara Ngurah Rai Bali. Meskipun kawasan ITDC adalah kawasan eksklusif Hotel Berbintang di Bali, sama halnya seperti Pantai Nusa Dua, Pantai Water Blow juga terbuka untuk dikunjungi wisatawan dan masyarakat umum. Anda hanya akan dikenakan biaya parkir Rp 2.000,- untuk kendaraan roda dua dan Rp 5.000,- untuk roda empat. Daya tarik Pantai Water Blow tentu sesuai namanya yaitu deburan ombak, deburan ombak pesisir Nusa Dua yang menghantam batu karang. Untuk ke Pantai Waterblow Anda bisa menggunakan kendraan pribadi, menyewa kendaraan atau menggunakan taksi/ ojek online."
+      ]
+    },
+    {
+      "tag": "penjelasan_Pura_Tanah_Lot",
+      "patterns": [
+        "Apa daya tarik dari Tanah Lot? ",
+        "Apa yang menarik di Tanah Lot?",
+        "Fasilitas apa saja yang ada di Tanah Lot?",
+        "Tanah Lot ada di mana?",
+        "Tanah Lot daerah mana?",
+        "Bagaimana cara ke Tanah Lot",
+        "Kalo ke mau ke Tanah Lot naik apa?",
+        "Naik apa ke Tanah Lot?",
+        "Berapa harga tiket masuk Tanah Lot?",
+        "Harga tiket masuk Tanah Lot berapa?",
+        "Bagaimana cara beli tiket masuk Tanah Lot?",
+        "Gimana carai beli tiket masuk Tanah Lot?",
+        "Tanah Lot buka jam berapa?",
+        "Tanah Lot tutup jam berapa?",
+        "Jam buka-tutup Tanah Lot",
+        "Jam operasional Tanah Lot",
+        "Berapa lama ke Tanah Lot?",
+        "Estimasi waktu perjalanan ke Tanah Lot"     
+      ],
+      "responses": [
+        "Pura Tanah Lot yang terletak di sisi pantai pedesaan Beraban, Kecamatan Kediri, Kabupaten Tabanan. Pura Tanah Lot terletak di 30 Km di sisi barat Denpasar kota dan sekitar 11 Km di sebelah selatan kota Tabanan. Candi ini sangat terkenal di antara tujuan wisata di Bali dengan pemandangan spektakuler matahari terbenam. Di beberapa sudut dari terumbu karang di sekitar Pura Tanah Lot terdapat ular jinak yang dipercaya sebagai makhluk yang di keramatkan dan disucikan, ular yang berwarna hitam dan putih di mana menurut masyarakat setempat percaya bahwa sebagai properti dewa dan sebagai penjaga candi dari pengaruh buruk. Harga tiket masuk Tanah Lot berbeda-beda. Harga tiket wisatawan domestik dewasa Rp20.000, sementara anak-anak Rp15.000. Untuk tarif parkir motor Rp2.000, mobil Rp5.000, dan bus Rp10.000."
+      ]
+    },
+    {
+      "tag": "penjelasan_Bali_Swing",
+      "patterns": [
+        "Apa daya tarik dari Bali Swing? ",
+        "Apa yang menarik di Bali Swing?",
+        "Fasilitas apa saja yang ada di Bali Swing?",
+        "Bali Swing ada di mana?",
+        "Bali Swing daerah mana?",
+        "Bagaimana cara ke Bali Swing",
+        "Kalo ke mau ke Bali Swing naik apa?",
+        "Naik apa ke Bali Swing?",
+        "Berapa harga tiket masuk Bali Swing?",
+        "Harga tiket masuk Bali Swing berapa?",
+        "Bagaimana cara beli tiket masuk Bali Swing?",
+        "Gimana carai beli tiket masuk Bali Swing?",
+        "Bali Swing buka jam berapa?",
+        "Bali Swing tutup jam berapa?",
+        "Jam buka-tutup Bali Swing",
+        "Jam operasional Pantai Waterblow",
+        "Berapa lama ke Pantai Waterblow?",
+        "Estimasi waktu perjalanan ke Pantai Waterblow"     
+      ],
+      "responses": [
+        "Salah satu penyedia wahana ayunan di Bali yang sangat terkenal adalah Bali Swing Bongkasa Pertiwi dan di kenal wisatawan dengan nama Bali Swing Ubud. Alamat Bali Swing Bongkasa berada di Jalan Dewi Saraswati No.7, Bongkasa Pertiwi, Abiansemal, Kabupaten Badung, Bali. Bali Swing Bongkasa buka dari jam 08:00-17:00. Bali Swing Bongkasa Pertiwi memiliki 15 ayunan untuk 1 orang dengan banyak pilihan ketinggian ayunan. Tersedia ayunan dengan ketinggian 10 meter, 15 meter, 20 meter dan 78 meter dari atas tanah. Setiap Ayunan akan menawarkan sensai yang berbeda karena adanya ketinggian yang berbeda. Apabila Anda takut ketinggian dan tidak berani mencoba Ayunan namun menginginkan foto dengan background yang indah anda dapat mencoba duduk di Sarang burung besar yang tergantung di atas dua pohon. Harga tiket Bali Swing Bongkasa sebesar Rp 150.000,- s/d Rp 500.000,- per orang."
+      ]
+    },
+    {
+      "tag": "penjelasan_Waterbom_Bali",
+      "patterns": [
+        "Apa daya tarik dari Waterbom Bali? ",
+        "Apa yang menarik di Waterbom Bali?",
+        "Fasilitas apa saja yang ada di Waterbom Bali?",
+        "Waterbom Bali ada di mana?",
+        "Waterbom Bali daerah mana?",
+        "Bagaimana cara ke Waterbom Bali",
+        "Kalo ke mau ke Waterbom Bali naik apa?",
+        "Naik apa ke Waterbom Bali?",
+        "Berapa harga tiket masuk Waterbom Bali?",
+        "Harga tiket masuk Waterbom Bali berapa?",
+        "Bagaimana cara beli tiket masuk Waterbom Bali?",
+        "Gimana carai beli tiket masuk Waterbom Bali?",
+        "Waterbom Bali buka jam berapa?",
+        "Waterbom Bali tutup jam berapa?",
+        "Jam buka-tutup Waterbom Bali",
+        "Jam operasional Waterbom Bali",
+        "Berapa lama ke Waterbom Bali?",
+        "Estimasi waktu perjalanan ke Waterbom Bali"     
+      ],
+      "responses": [
+        "Waterbom Bali ini bertempat di Jalan Kartika Plaza, Kuta, Bali 80361, Indonesia. Harga tiket masuk Waterboom Bali untuk orang dewasa Rp. 310.000 per orang dan Rp. 260.000 per orang untuk anak-anak. Juga tersedia paket family dengan jumlah 2 orang dewasa + 2 anak-anak, dikenakan sekitar Rp. 970.000. Ada banyak fasilitas yang disediakan seperti gazebo dan restoran. Selain itu juga terdapat banyak wahana seperti climax, superbowl, smashdown, pipeline, dan funtastic."
+      ]
+    }, 
+    {
+      "tag": "penjelasan_Goa_Gajah",
+      "patterns": [
+        "Apa daya tarik dari Goa Gajah? ",
+        "Apa yang menarik di Goa Gajah?",
+        "Fasilitas apa saja yang ada di Goa Gajah?",
+        "Goa Gajah ada di mana?",
+        "Goa Gajah daerah mana?",
+        "Bagaimana cara ke Goa Gajah",
+        "Kalo ke mau ke Goa Gajah naik apa?",
+        "Naik apa ke Goa Gajah?",
+        "Berapa harga tiket masuk Goa Gajah?",
+        "Harga tiket masuk Goa Gajah berapa?",
+        "Bagaimana cara beli tiket masuk Goa Gajah?",
+        "Gimana carai beli tiket masuk Goa Gajah?",
+        "Goa Gajah buka jam berapa?",
+        "Goa Gajah tutup jam berapa?",
+        "Jam buka-tutup Goa Gajah",
+        "Jam operasional Goa Gajah",
+        "Berapa lama ke Goa Gajah",
+        "Estimasi waktu perjalanan ke Goa Gajah"     
+      ],
+      "responses": [
+        "Objek wisata ini berada di Jalan Raya Goa Gajah, Pejeng Kawan, Tampaksiring, Gianyar, Bali 80582, Indonesia. Berjarak 40 kilometer dar kawasan pantai kuta Bali Selatan. Bisa ditempuh dalam waktu 1 jam berkendara. Selain sebagai tempat ibadah umat hindu, Goa Gajah juga difungsikan sebagai tujuan wisata religi-sejarah. Di dalam Goa Gajah menyimpan banyak benda-benda bersejarah. Untuk masuk ke dalam Goa Gajah anda perlu membeli tiket sebesar Rp 30.000,- untuk wisatawan lokal dan Rp 50.000,- untuk wisatawan mancanegara. Goa Gajah buka dari jam 10.00-18.00 WITA. Karena Goa Gajah masih difungsikan sebagai tempat ibadah umat Hindu, maka ada larangan masuk bagi pengunjung wanita yang sedang haid. Selain suci, pengunjung juga harus berpakaian sopan. Sebelum masuk, pengunjung wajib mengenakan sejenis kain sebagai sarung. Kain sarung ini sudah disediakan oleh pengelola. "
+      ]
+    }, 
+    {
+      "tag": "penjelasan_Istana_Air_Taman_Ujung",
+      "patterns": [
+        "Apa daya tarik dari Istana Air Taman Ujung? ",
+        "Apa yang menarik di Istana Air Taman Ujung?",
+        "Fasilitas apa saja yang ada di Istana Air Taman Ujung?",
+        "Istana Air Taman Ujung ada di mana?",
+        "Istana Air Taman Ujung daerah mana?",
+        "Bagaimana cara ke Istana Air Taman Ujung",
+        "Kalo ke mau ke Istana Air Taman Ujung naik apa?",
+        "Naik apa ke Istana Air Taman Ujung?",
+        "Berapa harga tiket masuk Istana Air Taman Ujung?",
+        "Harga tiket masuk Istana Air Taman Ujung berapa?",
+        "Bagaimana cara beli tiket masuk Istana Air Taman Ujung?",
+        "Gimana carai beli tiket masuk Istana Air Taman Ujung?",
+        "Istana Air Taman Ujung buka jam berapa?",
+        "Istana Air Taman Ujung tutup jam berapa?",
+        "Jam buka-tutup Istana Air Taman Ujung",
+        "Jam operasional Istana Air Taman Ujung",
+        "Berapa lama ke Istana Air Taman Ujung",
+        "Estimasi waktu perjalanan ke Istana Air Taman Ujung"     
+      ],
+      "responses": [
+        "Taman Ujung atau Taman Soekasada Ujung adalah sebuah wisata istana air di Karangasem, Bali. Istana yang merupakan tempat peristirahatan Raja Karangasem ini dibuka untuk wisata sejak 2003. Harga tiket masuknya Rp 15.000,- per orang. Taman Soekasada Ujung buka setiap hari dari jam 07.00-23.00 WITA. "
+      ]
+    }, 
+    {
+      "tag": "penjelasan_Istana_Puri_Saren",
+      "patterns": [
+        "Apa daya tarik dari Istana Puri Saren? ",
+        "Apa yang menarik di Istana Puri Saren?",
+        "Fasilitas apa saja yang ada di Istana Puri Saren?",
+        "Istana Puri Saren ada di mana?",
+        "Istana Puri Saren daerah mana?",
+        "Bagaimana cara ke Istana Puri Saren",
+        "Kalo ke mau ke Istana Puri Saren naik apa?",
+        "Naik apa ke Istana Puri Saren?",
+        "Berapa harga tiket masuk Istana Puri Saren?",
+        "Harga tiket masuk Istana Puri Saren berapa?",
+        "Bagaimana cara beli tiket masuk Istana Puri Saren?",
+        "Gimana carai beli tiket masuk Istana Puri Saren?",
+        "Istana Puri Saren buka jam berapa?",
+        "Istana Puri Saren tutup jam berapa?",
+        "Jam buka-tutup Istana Puri Saren",
+        "Jam operasional Istana Puri Saren",
+        "Berapa lama ke Istana Puri Saren",
+        "Estimasi waktu perjalanan ke Istana Puri Saren"     
+      ],
+      "responses": [
+        "Puri Saren Agung adalah salah satu istana yang ada di Ubud yang menjadi saksi kejayaan pemerintahan Kerajaan Ubud pada abad ke-17. Saat ini, Puri Saren Agung difungsikan sebagai museum dan pusat kesenian tradisional Bali. Untuk masuk ke objek wisata ini tidak dikenakan biaya. Namun, pengunjung akan dikenakan biaya sebesar Rp 100.000,- per orang bila Anda ingin menyaksikan pertunjukan tari yang ditampilkan. Puri Saren Agung buka hampir setiap hari dari pukul 08.00-18.00 WITA. Sedangkan pertunjukan sendra tari dimulai pukul 19.30-21.00 WITA. "
+      ]
+    }, 
+    {
+      "tag": "penjelasan_Pura_Puseh_Batuan",
+      "patterns": [
+        "Apa daya tarik dari Pura Puseh Batuan? ",
+        "Apa yang menarik di Pura Puseh Batuan?",
+        "Fasilitas apa saja yang ada di Pura Puseh Batuan?",
+        "Pura Puseh Batuan ada di mana?",
+        "Pura Puseh Batuan daerah mana?",
+        "Bagaimana cara ke Pura Puseh Batuan",
+        "Kalo ke mau ke Pura Puseh Batuan naik apa?",
+        "Naik apa ke Pura Puseh Batuan?",
+        "Berapa harga tiket masuk Pura Puseh Batuan?",
+        "Harga tiket masuk Pura Puseh Batuan berapa?",
+        "Bagaimana cara beli tiket masuk Pura Puseh Batuan?",
+        "Gimana carai beli tiket masuk Pura Puseh Batuan?",
+        "Pura Puseh Batuan buka jam berapa?",
+        "Pura Puseh Batuan tutup jam berapa?",
+        "Jam buka-tutup Pura Puseh Batuan",
+        "Jam operasional Pura Puseh Batuan",
+        "Berapa lama ke Pura Puseh Batuan",
+        "Estimasi waktu perjalanan ke Pura Puseh Batuan"     
+      ],
+      "responses": [
+        "Pura Puseh batuan merupakan pura Puseh tertua di Bali, terletak di dusun Tengah, desa Batuan, Kec. Sukawati, Kab. Gianyar. Keberadaanya memiliki daya tarik tersendiri bagi para wisatawan, terutama latar belakang atau sejarah berdirinya pura Puseh Batuan ini.Di seberang Pura Puseh Batun terdapat sebuah wantilan yang dipergunakan untuk pementasan tari tradisional Bali, yakni tari Gambuh pada setiap hari Purnama dan awal bulan, pementasan tari Gambuh tersebut dimulai pukul 19.00-20.30 WITA. Pura Puseh Batuan berjarak sekitar 30 menit dari pusat kota Denpasar. Berkunjung ke Pura Puseh Batuan tidak dikenakan tiket masuk tetapi hanya berupa donasi seikhlasnya, sudah termasuk sarung (kamben) dan juga selendang, sebagai salah satu syarat untuk memasuki kawasan suci Hindu. Syarat lainnya bagi pengunjung adalah wanita yang sedang datang bulan tidak diperbolehkan mengunjungi kawasan suci manapun di Bali termasuk juga jika anda berkunjung ke pura Puseh Batuan."
+      ]
+    },
+    {
+      "tag": "penjelasan_Pura_Besakih",
+      "patterns": [
+        "Apa daya tarik dari Pura Besakih? ",
+        "Apa yang menarik di Pura Besakih?",
+        "Fasilitas apa saja yang ada di Pura Besakih?",
+        "Pura Besakih ada di mana?",
+        "Pura Besakih daerah mana?",
+        "Bagaimana cara ke Pura Besakih",
+        "Kalo ke mau ke Pura Besakih naik apa?",
+        "Naik apa ke Pura Besakih?",
+        "Berapa harga tiket masuk Pura Besakih?",
+        "Harga tiket masuk Pura Besakih berapa?",
+        "Bagaimana cara beli tiket masuk Pura Besakih?",
+        "Gimana carai beli tiket masuk Pura Besakih?",
+        "Pura Besakih buka jam berapa?",
+        "Pura Besakih tutup jam berapa?",
+        "Jam buka-tutup Pura Besakih",
+        "Jam operasional Pura Besakih",
+        "Berapa lama ke Pura Besakih",
+        "Estimasi waktu perjalanan ke Pura Besakih"     
+      ],
+      "responses": [
+        "Pura Besakih merupakan salah satu tempat ibadah di Bali. Selain menjadi tempat ibadah, Pura Besakih juga menjadi tempat wisata yang banyak dikunjungi para wisatawan. Pura Besakih berlokasi di lereng Gunung Agung, Kabupaten Karangasem. Banyak wisatawan yang berkunjung untuk menikmati keindahan Pura Besakih serta panorama Gunung Agung di belakangnya. Wisatawan bisa datang pukul 08.00 hingga 17.00 WITA. Namun, Pura Besakih buka 24 jam bagi kalian yang ingin bersembahyang di sana. Harga tiket masuk Pura Besakih bagi wisatawan Rp 30.000 per orang. Sementara untuk biaya parkir motor dipatok Rp 5.000 dan Rp 10.000 untuk mobil."
+      ]
+    },
+    {
+      "tag": "penjelasan_Pura_Candi_Tebing_Gunung_Kawi_Sebatu",
+      "patterns": [
+        "Apa daya tarik dari Pura Candi Tebing Gunung Kawi Sebatu? ",
+        "Apa yang menarik di Pura Candi Tebing Gunung Kawi Sebatu?",
+        "Fasilitas apa saja yang ada di Pura Candi Tebing Gunung Kawi Sebatu?",
+        "Pura Candi Tebing Gunung Kawi Sebatu ada di mana?",
+        "Pura Candi Tebing Gunung Kawi Sebatu daerah mana?",
+        "Bagaimana cara ke Pura Candi Tebing Gunung Kawi Sebatu",
+        "Kalo ke mau ke Pura Candi Tebing Gunung Kawi Sebatu naik apa?",
+        "Naik apa ke Pura Candi Tebing Gunung Kawi Sebatu?",
+        "Berapa harga tiket masuk Pura Candi Tebing Gunung Kawi Sebatu?",
+        "Harga tiket masuk Pura Candi Tebing Gunung Kawi Sebatu berapa?",
+        "Bagaimana cara beli tiket masuk Pura Candi Tebing Gunung Kawi Sebatu?",
+        "Gimana carai beli tiket masuk Pura Candi Tebing Gunung Kawi Sebatu?",
+        "Pura Candi Tebing Gunung Kawi Sebatu buka jam berapa?",
+        "Pura Candi Tebing Gunung Kawi Sebatu tutup jam berapa?",
+        "Jam buka-tutup Pura Candi Tebing Gunung Kawi Sebatu",
+        "Jam operasional Pura Candi Tebing Gunung Kawi Sebatu",
+        "Berapa lama ke Pura Candi Tebing Gunung Kawi Sebatu",
+        "Estimasi waktu perjalanan ke Pura Candi Tebing Gunung Kawi Sebatu"     
+      ],
+      "responses": [
+        "Pura Gunung Kawi Sebatu terletak di Banjar Sebatu, Desa Sebatu, Tegalalang, Gianyar, Bali. Suasana yang masih asri juga disuguhkan Pura Gunung Kawi. Tepat di belakang pura tersebut terdapat tebing dan hutan yang memberikan kesan hijau. Di area pembelian karcis pun disediakan kain untuk dipinjamkan kepada pengunjung selama di kawasan pura. Untuk tiket masuk dikenakan biaya Rp 15 ribu per orang dewasa dan Rp 7.500 untuk anak-anak. Di sekitar area Pura Gunung Kawi Sebatu terdapat sebuah wantilan di atas kolam ikan yang mana anda dapat memberi makan ikan-ikan yang ada."
+      ]
+    },
+    {
+      "tag": "penjelasan_Pura_Kehen",
+      "patterns": [
+        "Apa daya tarik dari Pura Kehen? ",
+        "Apa yang menarik di Pura Kehen?",
+        "Fasilitas apa saja yang ada di Pura Kehen?",
+        "Pura Kehen ada di mana?",
+        "Pura Kehen daerah mana?",
+        "Bagaimana cara ke Pura Kehen",
+        "Kalo ke mau ke Pura Kehen naik apa?",
+        "Naik apa ke Pura Kehen?",
+        "Berapa harga tiket masuk Pura Kehen?",
+        "Harga tiket masuk Pura Kehen berapa?",
+        "Bagaimana cara beli tiket masuk Pura Kehen?",
+        "Gimana carai beli tiket masuk Pura Kehen?",
+        "Pura Kehen buka jam berapa?",
+        "Pura Kehen tutup jam berapa?",
+        "Jam buka-tutup Pura Kehen",
+        "Jam operasional Pura Kehen",
+        "Berapa lama ke Pura Kehen",
+        "Estimasi waktu perjalanan ke Pura Kehen"     
+      ],
+      "responses": [
+        "Pura Kehen merupakan wisata cagar budaya yang berlokasi di Kabupaten Bangli, Bali. Arsitektur bangunan candi serta budaya yang melatarbelakanginya menjadi daya tarik utama. Berada di sisi selatan Bukit Bangli, destinasi wisata ini merupakan pura yang sakral. Pura ini merupakan salah satu kahyangan jagat terbesar di Bangli. Pura ini sekaligus menjadi peninggalan sejarah cikal bakal terbentuknya Kota Bangli. Upacara keagamaan, sejarah pura, dan tradisi budaya menjadi bagian atraktif yang menarik bagi wisatawan. Harga tiket masuknya Rp 10.000,- per orang. Buka dari jam 09.00-17.00 WITA. "
+      ]
+    }, 
+    {
+      "tag": "penjelasan_Pura_Lempuyang",
+      "patterns": [
+        "Apa daya tarik dari Pura Lempuyang? ",
+        "Apa yang menarik di Pura Lempuyang?",
+        "Fasilitas apa saja yang ada di Pura Lempuyang?",
+        "Pura Lempuyang ada di mana?",
+        "Pura Lempuyang daerah mana?",
+        "Bagaimana cara ke Pura Lempuyang",
+        "Kalo ke mau ke Pura Lempuyang naik apa?",
+        "Naik apa ke Pura Lempuyang?",
+        "Berapa harga tiket masuk Pura Lempuyang?",
+        "Harga tiket masuk Pura Lempuyang berapa?",
+        "Bagaimana cara beli tiket masuk Pura Lempuyang?",
+        "Gimana carai beli tiket masuk Pura Lempuyang?",
+        "Pura Lempuyang buka jam berapa?",
+        "Pura Lempuyang tutup jam berapa?",
+        "Jam buka-tutup Pura Lempuyang",
+        "Jam operasional Pura Lempuyang",
+        "Berapa lama ke Pura Lempuyang",
+        "Estimasi waktu perjalanan ke Pura Lempuyang"     
+      ],
+      "responses": [
+        "Pura Lempuyang merupakan salah satu dari pura tertua dan dihormati di Bali. Berada di ketinggian 1.174 mdpl, membuat pura ini layaknya di atas awan. Obyek wisata yang juga merupakan tempat suci umat Hindu ini berlokasi di Kabupaten Karangasem. Berlatar belakang panorama yang memukau, gerbang di lokasi puncaknya dijuluki Gate of Heaven. Untuk memasuki pura, wisatawan cukup membayar Rp50.000,- per orang. Wisatawan bisa datang ke pura ini setiap hari. Buka mulai pukul 06.00-19.00 WITA. Waktu terbaik ke sini adalah menjelang sore pada saat matahari mencapai golden sunset."
+      ]
+    }, 
+    {
+      "tag": "penjelasan_Pura_Luhur_Batukaru",
+      "patterns": [
+        "Apa daya tarik dari Pura Luhur Batukaru? ",
+        "Apa yang menarik di Pura Luhur Batukaru?",
+        "Fasilitas apa saja yang ada di Pura Luhur Batukaru?",
+        "Pura Luhur Batukaru ada di mana?",
+        "Pura Luhur Batukaru daerah mana?",
+        "Bagaimana cara ke Pura Luhur Batukaru",
+        "Kalo ke mau ke Pura Luhur Batukaru naik apa?",
+        "Naik apa ke Pura Luhur Batukaru?",
+        "Berapa harga tiket masuk Pura Luhur Batukaru?",
+        "Harga tiket masuk Pura Luhur Batukaru berapa?",
+        "Bagaimana cara beli tiket masuk Pura Luhur Batukaru?",
+        "Gimana carai beli tiket masuk Pura Luhur Batukaru?",
+        "Pura Luhur Batukaru buka jam berapa?",
+        "Pura Luhur Batukaru tutup jam berapa?",
+        "Jam buka-tutup Pura Luhur Batukaru",
+        "Jam operasional Pura Luhur Batukaru",
+        "Berapa lama ke Pura Luhur Batukaru",
+        "Estimasi waktu perjalanan ke Pura Luhur Batukaru"     
+      ],
+      "responses": [
+        "Pura Luhur Batukaru adalah sebuah pura yang terletak di lereng Gunung Batukaru, Bali. Nama pura ini diambil dari nama Gunung Batukaru, tempat lokasinya berada. Pura ini merupakan salah satu pura Sad Kahyangan (tempat pemujaan seluruh umat Hindu). Destinasi wisata ini berada di ketinggian sekitar 833 mdpl. Dikelilingi hutan lebat, membuat lingkungan pura ini berhawa sejuk dan segar khas udara pegunungan. Harga tiket masuk Pura Batukaru sebesar Rp 15.000,- per orang. Tempat peribadatan ini juga merupakan destinasi wisata religi bagi masyarakat Hindu Bali."
+      ]
+    },
+    {
+      "tag": "penjelasan_Pura_Saraswati",
+      "patterns": [
+        "Apa daya tarik dari Pura Saraswati? ",
+        "Apa yang menarik di Pura Saraswati?",
+        "Fasilitas apa saja yang ada di Pura Saraswati?",
+        "Pura Saraswati ada di mana?",
+        "Pura Saraswati daerah mana?",
+        "Bagaimana cara ke Pura Saraswati",
+        "Kalo ke mau ke Pura Saraswati naik apa?",
+        "Naik apa ke Pura Saraswati?",
+        "Berapa harga tiket masuk Pura Saraswati?",
+        "Harga tiket masuk Pura Saraswati berapa?",
+        "Bagaimana cara beli tiket masuk Pura Saraswati?",
+        "Gimana carai beli tiket masuk Pura Saraswati?",
+        "Pura Saraswati buka jam berapa?",
+        "Pura Saraswati tutup jam berapa?",
+        "Jam buka-tutup Pura Saraswati",
+        "Jam operasional Pura Saraswati",
+        "Berapa lama ke Pura Saraswati",
+        "Estimasi waktu perjalanan ke Pura Saraswati"     
+      ],
+      "responses": [
+        "Pura Saraswati merupakan pura yang didirikan untuk pemujaan Dewi ilmu Pengetahuan, Dewi Saraswati. Dibangun oleh I Gusti Nyoman Lempad, seniman terkenal Ubud,  pura ini berlokasi di Gianyar. Keunikan Pura Taman Saraswati di antara pura Bali lainnya adalah adanya kolam teratai. Teratai yang mekar di kolam yang mengelilinginya membuat objek wisata ini begitu megah. Pura ini juga memiliki panggung pementasan tari Bali yang rutin mementaskan Tari Kecak. Bagi wisatawan yang ingin datang ke pura ini tidak dikenakan tiket masuk. Pengunjung hanya akan dikenakan biaya jika ingin menonton pentas tarian khas Bali. Pura Saraswati buka setiap hari dari jam 07.00-17.00 WITA."
+      ]
+    },
+    {
+      "tag": "penjelasan_Pura_Taman Ayun",
+      "patterns": [
+        "Apa daya tarik dari Pura Taman Ayun? ",
+        "Apa yang menarik di Pura Taman Ayun?",
+        "Fasilitas apa saja yang ada di Pura Taman Ayun?",
+        "Pura Taman Ayun ada di mana?",
+        "Pura Taman Ayun daerah mana?",
+        "Bagaimana cara ke Pura Taman Ayun",
+        "Kalo ke mau ke Pura Taman Ayun naik apa?",
+        "Naik apa ke Pura Taman Ayun?",
+        "Berapa harga tiket masuk Pura Taman Ayun?",
+        "Harga tiket masuk Pura Taman Ayun berapa?",
+        "Bagaimana cara beli tiket masuk Pura Taman Ayun?",
+        "Gimana carai beli tiket masuk Pura Taman Ayun?",
+        "Pura Taman Ayun buka jam berapa?",
+        "Pura Taman Ayun tutup jam berapa?",
+        "Jam buka-tutup Pura Taman Ayun",
+        "Jam operasional Pura Taman Ayun",
+        "Berapa lama ke Pura Taman Ayun",
+        "Estimasi waktu perjalanan ke Pura Taman Ayun"     
+      ],
+      "responses": [
+        "Pura Taman Ayun merupakan salah satu Daya Tarik Wisata di Bali yang berada di Wilayah Kabupaten Badung. Berada di wilayah Kecamatan Mengwi Kabupaten Badung, Pura Taman Ayun juga merupakan salah satu warisan budaya dunia UNESCO sejak tahun 2012. Didukung oleh keindahan taman nya serta arsitektur Pura yang indah dan unik, menjadikan aktivitas utama yang dilakukan wisatawan yang berwisata ke destinasi ini adalah berfoto. Seringkali kita juga bisa menemukan beberapa wisatawan yang menjadikan Taman Ayun sebagai salah satu spot Foto Pra Wedding di Bali. Tiket Masuk ke Daya Tarik Wisata Taman Ayun sangat terjangkau yaitu untuk wisatawan lokal Rp 15.000/Orang Dewasa dan Rp 10.000/Orang Anak, sedangkan untuk wisatawan mancanegara harga tiketnya adalah Rp 30.000/Orang Dewasa dan Rp 15.000/Orang Anak."
+      ]
+    }, 
+    {
+      "tag": "penjelasan_Pura_Tirta Empul",
+      "patterns": [
+        "Apa daya tarik dari Pura Tirta Empul? ",
+        "Apa yang menarik di Pura Tirta Empul?",
+        "Fasilitas apa saja yang ada di Pura Tirta Empul?",
+        "Pura Tirta Empul ada di mana?",
+        "Pura Tirta Empul daerah mana?",
+        "Bagaimana cara ke Pura Tirta Empul",
+        "Kalo ke mau ke Pura Tirta Empul naik apa?",
+        "Naik apa ke Pura Tirta Empul?",
+        "Berapa harga tiket masuk Pura Tirta Empul?",
+        "Harga tiket masuk Pura Tirta Empul berapa?",
+        "Bagaimana cara beli tiket masuk Pura Tirta Empul?",
+        "Gimana carai beli tiket masuk Pura Tirta Empul?",
+        "Pura Tirta Empul buka jam berapa?",
+        "Pura Tirta Empul tutup jam berapa?",
+        "Jam buka-tutup Pura Tirta Empul",
+        "Jam operasional Pura Tirta Empul",
+        "Berapa lama ke Pura Tirta Empul",
+        "Estimasi waktu perjalanan ke Pura Tirta Empul"     
+      ],
+      "responses": [
+        "Bali dapat dikatakan surganya tempat wisata, salah satunya berupa pura dan pemandian. Tempat yang sangat terkenal akan kesucian pemandiannya adalah Pura Tirta Empul. Tidak hanya pemandian, tapi juga terdapat pura di sini. Tirta Empul tidak hanya sekedar pemandian biasa. Melainkan pemandian suci yang sarat akan banyak makna. Untuk masuk ke Pura Tirta Empul, pengunjung diharuskan untuk membayar tiket masuk. Pengunjung juga dapat menyiapkan uang untuk penyewaan kain panjang dan selendang. Namun, uang ini bersifat sukarela karena nantinya akan dimasukkan ke dalam kotak. Objek wisata ini dibuka mulai pukul 08.00-18.00 WITA. Objek wisata ini berada di Jalan Tirta, Desa Manukaya, Kecamatan Tampaksiring, Kabupaten Gianyar. Berjarak kurang lebih 14 kilometer dari kawasan desa wisata Ubud. Dapat ditempuh dalam waktu 30 menit berkendara."
+      ]
+    },
+    {
+      "tag": "penjelasan_Pura_Uluwatu",
+      "patterns": [
+        "Apa daya tarik dari Pura Uluwatu? ",
+        "Apa yang menarik di Pura Uluwatu?",
+        "Fasilitas apa saja yang ada di Pura Uluwatu?",
+        "Pura Uluwatu ada di mana?",
+        "Pura Uluwatu daerah mana?",
+        "Bagaimana cara ke Pura Uluwatu",
+        "Kalo ke mau ke Pura Uluwatu naik apa?",
+        "Naik apa ke Pura Uluwatu?",
+        "Berapa harga tiket masuk Pura Uluwatu?",
+        "Harga tiket masuk Pura Uluwatu berapa?",
+        "Bagaimana cara beli tiket masuk Pura Uluwatu?",
+        "Gimana cari beli tiket masuk Pura Uluwatu?",
+        "Pura Uluwatu buka jam berapa?",
+        "Pura Uluwatu tutup jam berapa?",
+        "Jam buka-tutup Pura Uluwatu",
+        "Jam operasional Pura Uluwatu",
+        "Berapa lama ke Pura Uluwatu",
+        "Estimasi waktu perjalanan ke Pura Uluwatu"     
+      ],
+      "responses": [
+        "Pura Luhur Uluwatu atau Pura Uluwatu adalah pura yang terletak di Desa Pecatu, Kecamatan Kuta, Badung. Pura yang terletak di ujung barat daya pulau Bali di atas anjungan batu karang yang terjal dan tinggi. Lokasi berdirinya pura Luhur Uluwatu yang berada di atas tebing membuat banyak wisatawan datang untuk berkunjung, tidak hanya untuk menikmati suasana yang sakral dan religius, tetapi juga pemandangan yang indah serta unik. Selain itu, wisatawan juga bisa menikmati indahnya pemandangan matahari terbenam tanpa adanya halangan sama sekali. Selain keindahan sunset, setiap harinya kalian juga bisa melihat pertunjukkan tari kecak. Jam operasional Pura Uluwatu Bali di buka mulai pukul 08.30 -19.30, sedangkan untuk pertunjukkan Tari Kecak dimulai pukul 18.00-19.00. Harga tiket masuknya mulai dari 10.000,- s/d 30.000,- per orang, sedangkan untuk tiket pertunjukan tari kecak sebesar 100.000,- per orang."
+      ]
+    },
+    {
+      "tag": "penjelasan_Tirta_Gangga",
+      "patterns": [
+        "Apa daya tarik dari Tirta Gangga? ",
+        "Apa yang menarik di Tirta Gangga?",
+        "Fasilitas apa saja yang ada di Tirta Gangga?",
+        "Tirta Gangga ada di mana?",
+        "Pura Uluwatu daerah mana?",
+        "Bagaimana cara ke Tirta Gangga",
+        "Kalo ke mau ke Tirta Gangga naik apa?",
+        "Naik apa ke Tirta Gangga?",
+        "Berapa harga tiket masuk Tirta Gangga?",
+        "Harga tiket masuk Tirta Gangga berapa?",
+        "Bagaimana cara beli tiket masuk Tirta Gangga?",
+        "Gimana carai beli tiket masuk Tirta Gangga?",
+        "Tirta Gangga buka jam berapa?",
+        "Tirta Gangga tutup jam berapa?",
+        "Jam buka-tutup Tirta Gangga",
+        "Jam operasional Tirta Gangga",
+        "Berapa lama ke Tirta Gangga",
+        "Estimasi waktu perjalanan ke Tirta Gangga"     
+      ],
+      "responses": [
+        "Istana Air Tirta Gangga merupakan salah satu situs bersejarah yang menawan di Karangasem. Warisan budaya ini dibangun oleh Raja Karangasem, Anak Agung Anglurah Ketut Karangasem pada tahun 1946. Taman air ini berfungsi juga sebagai tempat ibadah dan pemandian. Untuk bisa berkeliling di kawasan asri istana air ini pengunjung harus membeli tiket masuk, untuk wisatawan lokal dikenakan biaya Rp 15.000,- per anak dan Rp 25.000,- per orang dewasa, sedangkan untuk wisatawan mancanegara dikenakan biaya Rp 50.000,- per orang.Taman rekreasi istana air ini beroperasi setiap hari baik hari biasa maupun akhir pekan. Buka dari 07.30-18.30 WITA."
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Dadah",
+        "Bye",
+        "Byee",
+        "Good bye",
+        "Selamat tinggal",
+        "Sampai jumpa",
+        "See you",
+        "Keluar",
+        "Selesai",
+        "Quit"
+      ],
+      "responses": [
+        "Bye!",
+        "Dadahh!",
+        "Good bye!",
+        "Byeee, semoga harimu menyenangkan yaa!",
+        "Sampai jumpa lagi!",
+        "See u! Senang bisa membantu",
+        "Bye Bye, see you next time!"
+      ]
+    },
+    {
+      "tag": "terimakasih",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "Terima kasih",
+        "Makasih",
+        "Terima kasih banyak"
+      ],
+      "responses": [
+        "Dengan senang hati :)",
+        "Sama-sama yaa",
+        "Terima kasih kembali"
+      ]
+    }
+  ]
+} 
